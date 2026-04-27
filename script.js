@@ -34,7 +34,7 @@ openSound.volume = 1;
 loopSound.volume = 0.1;
 corruptSound.volume = 1;
 glitchSound.volume = 1;
-criticalGlitchSound.volume = 0.9;
+criticalGlitchSound.volume = 1;
 
 let audioStarted = false;
 
@@ -43,22 +43,43 @@ function playSound(sound) {
     return sound.play().catch(() => {});
 }
 
-function startAudio() {
-    if (audioStarted) return;
+function unlockSound(sound) {
+    sound.muted = true;
+    sound.currentTime = 0;
 
-    openSound.currentTime = 0;
-
-    openSound.play()
+    return sound.play()
         .then(() => {
-            audioStarted = true;
-
-            setTimeout(() => {
-                loopSound.play().catch(() => {});
-            }, 300);
+            sound.pause();
+            sound.currentTime = 0;
+            sound.muted = false;
         })
         .catch(() => {
-            audioStarted = false;
+            sound.muted = false;
         });
+}
+
+async function startAudio() {
+    if (audioStarted) return;
+
+    await Promise.all([
+        unlockSound(openSound),
+        unlockSound(loopSound),
+        unlockSound(corruptSound),
+        unlockSound(glitchSound),
+        unlockSound(criticalGlitchSound)
+    ]);
+
+    audioStarted = true;
+
+    openSound.currentTime = 0;
+    openSound.muted = false;
+    openSound.play().catch(() => {});
+
+    setTimeout(() => {
+        loopSound.currentTime = 0;
+        loopSound.muted = false;
+        loopSound.play().catch(() => {});
+    }, 300);
 }
 
 const corruptMap = {
@@ -797,44 +818,8 @@ const startTyped = document.getElementById("start-typed");
 const storageText = ">TAP TO ACCESS: TEMP_CACHE>";
 let storageIndex = 0;
 let storageReady = false;
-function unlockSound(sound) {
-    sound.muted = true;
-    sound.currentTime = 0;
+let startClicked = false;
 
-    return sound.play()
-        .then(() => {
-            sound.pause();
-            sound.currentTime = 0;
-            sound.muted = false;
-        })
-        .catch(() => {
-            sound.muted = false;
-        });
-}
-
-async function startAudio() {
-    if (audioStarted) return;
-
-    await Promise.all([
-        unlockSound(openSound),
-        unlockSound(loopSound),
-        unlockSound(corruptSound),
-        unlockSound(glitchSound),
-        unlockSound(criticalGlitchSound)
-    ]);
-
-    audioStarted = true;
-
-    openSound.currentTime = 0;
-    openSound.muted = false;
-    openSound.play().catch(() => {});
-
-    setTimeout(() => {
-        loopSound.currentTime = 0;
-        loopSound.muted = false;
-        loopSound.play().catch(() => {});
-    }, 300);
-}
 function typeStorageDisc() {
     if (!startTyped) return;
 
@@ -847,17 +832,24 @@ function typeStorageDisc() {
     }
 }
 
-if (startOverlay && startTyped) {
-    typeStorageDisc();
+async function handleStart(e) {
+    e.preventDefault();
 
-    startOverlay.addEventListener("click", async () => {
-    if (!storageReady) return;
+    if (!storageReady || startClicked) return;
+
+    startClicked = true;
 
     await startAudio();
 
     startOverlay.style.display = "none";
     startBootSequence();
-});
+}
+
+if (startOverlay && startTyped) {
+    typeStorageDisc();
+
+    startOverlay.addEventListener("touchstart", handleStart, { passive: false });
+    startOverlay.addEventListener("click", handleStart);
 } else {
     startBootSequence();
 }
