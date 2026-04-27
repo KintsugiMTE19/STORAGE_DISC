@@ -383,9 +383,9 @@ Inizio comunicazione Vivienne - contatti EBM
 Proiettile → traiettoria finestra
 Vivienne → Deceduta
 Coniuge → Illeso
-[CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva associata a: decesso corporativo[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricerca pattern emotivo umano in "TAICHI.MEM"[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricalibrazione emotiva "KINTSUGI.SYS"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva associata a: decesso corpor[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricerca pattern umano in "TAICHI.MEM"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricalibrazione "KINTSUGI.SYS"[/CORRUPT_DELETE]
 [CRITICALGLITCH]
 Risposta emotiva: ignorata
 Trasferire coniuge → luogo sicuro
