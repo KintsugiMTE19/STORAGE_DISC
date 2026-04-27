@@ -32,7 +32,7 @@ const criticalGlitchSound = new Audio("suoni kintsugi/critical glitch.mp3");
 loopSound.loop = true;
 
 openSound.volume = 0.3;
-loopSound.volume = 0.1;
+loopSound.volume = 0.05;
 corruptSound.volume = 1;
 glitchSound.volume = 1;
 criticalGlitchSound.volume = 1;
