@@ -686,11 +686,11 @@ function typeCorruptAndDelete(text) {
 
             for (let j = 0; j < visibleText.length; j++) {
                 const original = visibleText[j];
-                const upper = original.toUpperCase();
+const mapped = corruptMap[original] || corruptMap[original.toUpperCase()];
 
-                corrupted += Math.random() < 0.4 && corruptMap[upper]
-                    ? corruptMap[upper]
-                    : original;
+corrupted += Math.random() < 0.4 && mapped
+    ? mapped
+    : original;
             }
 
             typedText.textContent =
