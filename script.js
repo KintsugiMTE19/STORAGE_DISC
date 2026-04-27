@@ -30,10 +30,10 @@ const criticalGlitchSound = new Audio("suoni kintsugi/critical glitch.mp3");
 
 loopSound.loop = true;
 
-openSound.volume = 0.8;
-loopSound.volume = 0.35;
-corruptSound.volume = 0.7;
-glitchSound.volume = 0.7;
+openSound.volume = 1;
+loopSound.volume = 0.5;
+corruptSound.volume = 1;
+glitchSound.volume = 1;
 criticalGlitchSound.volume = 0.9;
 
 let audioStarted = false;
@@ -794,7 +794,7 @@ function triggerCriticalGlitch() {
 const startOverlay = document.getElementById("start-overlay");
 const startTyped = document.getElementById("start-typed");
 
-const storageText = "> TAP TO ACCESS: TEMP_CACHE >";
+const storageText = ">TAP TO ACCESS: TEMP_CACHE>";
 let storageIndex = 0;
 let storageReady = false;
 function unlockSound(sound) {
@@ -812,25 +812,28 @@ function unlockSound(sound) {
         });
 }
 
-function startAudio() {
+async function startAudio() {
     if (audioStarted) return;
 
-    Promise.all([
+    await Promise.all([
         unlockSound(openSound),
         unlockSound(loopSound),
         unlockSound(corruptSound),
         unlockSound(glitchSound),
         unlockSound(criticalGlitchSound)
-    ]).then(() => {
-        audioStarted = true;
+    ]);
 
-        openSound.currentTime = 0;
-        openSound.play().catch(() => {});
+    audioStarted = true;
 
-        setTimeout(() => {
-            loopSound.play().catch(() => {});
-        }, 300);
-    });
+    openSound.currentTime = 0;
+    openSound.muted = false;
+    openSound.play().catch(() => {});
+
+    setTimeout(() => {
+        loopSound.currentTime = 0;
+        loopSound.muted = false;
+        loopSound.play().catch(() => {});
+    }, 300);
 }
 function typeStorageDisc() {
     if (!startTyped) return;
@@ -847,13 +850,14 @@ function typeStorageDisc() {
 if (startOverlay && startTyped) {
     typeStorageDisc();
 
-    startOverlay.addEventListener("click", () => {
-        if (!storageReady) return;
+    startOverlay.addEventListener("click", async () => {
+    if (!storageReady) return;
 
-        startAudio();
-        startOverlay.style.display = "none";
-        startBootSequence();
-    });
+    await startAudio();
+
+    startOverlay.style.display = "none";
+    startBootSequence();
+});
 } else {
     startBootSequence();
 }

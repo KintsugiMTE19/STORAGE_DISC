@@ -123,8 +123,9 @@ body {
 }
 
 #start-typed {
-    display: inline;
-    white-space: pre-wrap;
+    margin-left: 16px;
+    margin-right: 8px;
+    white-space: nowrap;
 }
 
 #typed-text {
