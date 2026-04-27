@@ -31,10 +31,20 @@ const criticalGlitchSound = new Audio("suoni kintsugi/critical glitch.mp3");
 loopSound.loop = true;
 
 openSound.volume = 0.3;
-loopSound.volume = 0.2;
+loopSound.volume = 0.1;
 corruptSound.volume = 1;
 glitchSound.volume = 1;
 criticalGlitchSound.volume = 1;
+function playSound(sound) {
+    const s1 = sound.cloneNode();
+    const s2 = sound.cloneNode();
+
+    s1.volume = 1;
+    s2.volume = 1;
+
+    s1.play().catch(() => {});
+    setTimeout(() => s2.play().catch(() => {}), 20);
+}
 
 let audioStarted = false;
 
