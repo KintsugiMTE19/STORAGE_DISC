@@ -254,11 +254,11 @@ Kenji:
 — menzione Slammer
 — menzione Totentatz
 — richiesta di accompagnamento
-[CORRUPT_DELETE]Recupero dati KINSTUGI.SYS[/CORRUPT_DELETE]
+Recupero dati KINSTUGI.SYS
 — soggetto: Freak Show
 — luogo: Atlantis
 — oggetto recuperato: interazione intima non consensuale
-[CORRUPT_DELETE]Recupero dati TAICHI.MEM[/CORRUPT_DELETE]
+Recupero dati TAICHI.MEM
 — soggetto: 健司 (Kenji) anni: 5
 — luogo: combat zone
 — memoria recuperata:
