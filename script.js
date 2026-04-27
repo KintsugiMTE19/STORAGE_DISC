@@ -143,7 +143,7 @@ Vortex: posizione sconosciuta
 —
 06:05
 Condizioni volto ripristinate
-Microfratture dermiche sintetiche: rimarginate
+Microfratture dermiche: rimarginate
 Composizione messaggio:
 Destinatari → Polaris / Freak Show / Evie
 Contenuto: “Ci vediamo dopo il turno”
@@ -181,11 +181,11 @@ Biglietto SASLCT (sindacato lavoratori)
 Reazione:
 umorismo interno 75%
 incoerenza logica → super chippati – lavoratori - diritti 
-Avvio protocollo meditazione:
+>AVVIO PROTOCOLLO MEDITAZIONE
 rumore attenuato
 abilità cognitiva ridotta
 07:50
-Termine protocollo meditazione
+>PROTOCOLLO MEDITAZIONE TERMINATO
 —
 07:55
 Messaggio in ingresso — Freak Show
@@ -257,15 +257,15 @@ Kenji:
 [CORRUPT_DELETE]Recupero dati KINSTUGI.SYS[/CORRUPT_DELETE]
 — soggetto: Freak Show
 — luogo: Atlantis
-— oggetto recuperato: interazione non consensuale
+— oggetto recuperato: interazione intima non consensuale
 [CORRUPT_DELETE]Recupero dati TAICHI.MEM[/CORRUPT_DELETE]
-— soggetto: Kenji (infanzia)
+— soggetto: 健司 (Kenji) anni: 5
 — luogo: combat zone
 — memoria recuperata:
-健司 (Kenji) sente spari dalla casa accanto
-大輔 (Daisuke) lo chiude in casa per sicurezza
-Kenji interpreta la situazione come una festa
-Richiesta di uscire per partecipare, dicendo di avere dei petardi
+il soggetto sente sparatoria dalla casa accanto
+大輔 (Daisuke) confina il soggetto in casa per la sua sicurezza
+il soggetto interpreta la situazione come un gioco ignorando le direttive
+il soggetto implora di uscire per partecipare alla festa, dicendo di avere dei petardi
 — nota personale: disallineamento tra realtà ostile e percezione soggetto
 Risposta:
 [CORRUPT_DELETE]No[/CORRUPT_DELETE]
@@ -292,7 +292,7 @@ Responso Daisuke:
 Registrazione dolore: trascurabile
 —
 17:00
-Arrivo al Totentantz
+Arrivo → Totentantz
 Freak Show: individuato
 Evie: individuata
 Messaggio in ingresso: Polaris
@@ -304,16 +304,15 @@ Messaggio in ingresso: Polaris
 [CORRUPT_DELETE]Operazione di salvataggio[/CORRUPT_DELETE]
 [CORRUPT_DELETE]Uccidere David[/CORRUPT_DELETE]
 [GLITCH]
-Opzione:
+Opzioni:
 Eliminazione David
-Probabilità di riuscita: 50%
-Probabilità morte Polaris: 99%
-[CORRUPT_DELETE]Possibile utilizzo granate frag-9[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Possibile massacro [/CORRUPT_DELETE]
-Opzione:
+-Probabilità di riuscita: 50%
+-Probabilità morte Polaris: 99%
+[CORRUPT_DELETE]Utilizzo granate framm[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Massacro[/CORRUPT_DELETE]
 Attentato tramite esplosivi
-Probabilità di riuscita: 20%
-Probabilità morte Polaris: 99%
+-Probabilità di riuscita: 20%
+-Probabilità morte Polaris: 99%
 
 Evie: movimento frenetico – tono di voce in aumento
 Freak Show: comunicazione con Polaris
@@ -327,34 +326,41 @@ Posizione Sascha: sgabuzzino
 Stato: addormentato → sveglio → instabile
 —
 17:12
-Sascha: in fuga
-Obiettivo: documenti falsi - estrazione Polaris
+Movimento Sascha → uscita del Totentants
+Obiettivo: 
+documenti falsi - estrazione Polaris
 Recupero:
-Kintsugi → inseguimento → insulti
-Evie → inseguimento → persuasione
+Kintsugi → inseguimento → lesioni verbali → fallimento
+Evie → inseguimento → manipolazione persuasiva → successo
 Esito: ritorno del soggetto
 —
 17:15
 Vortex: individuato
-Istruzioni: fermare Sascha se necessario
-Proposta Vortex: riorganizzazione denti non consensuale
-Risposta: assenso condizionato
+Istruzioni: 
+fermare Sascha se necessario
+Proposta Vortex: 
+riorganizzazione denti non consensuale
+Risposta: 
+assenso condizionato
 —
 17:16
 Movimento → Corporate Plaza
 Deviazione: abitazione Evie
 —
 17:40
-Proposta Freak Show
-Scenario alternativo:
-vendersi a Netwatch
-Evie: opposizione
-Kintsugi:
+Ingresso → abitazione Evie
+Foxy → uscito dall'abitazione
+Proposta Freak Show:
+cessione della propria persona a Netwatch
+Risposta Evie: 
+opposizione assoluta
+Valutazione Kintsugi:
 [CORRUPT_DELETE]Recupero dati KINSTUGI.SYS[/CORRUPT_DELETE]
 [CORRUPT_DELETE]Recupero dati TAICHI.MEM[/CORRUPT_DELETE]
-Esito: nessuna soluzione
+Alternative rilevate:
+0
 Risposta:
-“È la tua vita”
+Autonomia decisionale del soggetto Freak Show sottolineata
 —
 17:50
 Accesso al piano superiore
@@ -371,17 +377,21 @@ Contenuto:
 — copertura saltata
 — necessità discrezione
 Reazione Vivienne: panico
-Inizio comuicazione Vivienne - contatti EBM
+Inizio comunicazione Vivienne - contatti EBM
 —
 17:55:03
-REGISTRAZIONE EVENTO SU "KINTSUGI.SYS - LONG_TERM_STORAGE"
+> EVENTO CRITICO RILEVATO
+> SCRITTURA IMMEDIATA SU "KINTSUGI.SYS - LONG_TERM_STORAGE"
 Proiettile → traiettoria finestra
 Vivienne → Deceduta
 Coniuge → Illeso
 Nota personale:
-[CORRUPT_DELETE]Soddisfazione[/CORRUPT_DELETE]
-[GLITCH]
-Trasferire coniuge in luogo sicuro
+[CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva associata all'evento: decesso soggetto corporativo[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricerca: pattern emotivo compatibile in "TAICHI.MEM"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Tentativo di ricalibrazione: "KINTSUGI.SYS"[/CORRUPT_DELETE]
+[CRITICALGLITCH]
+Risposta emotiva: ignorata
+Trasferire coniuge → luogo sicuro
 —
 FINE REGISTRAZIONE PARZIALE
 `;
