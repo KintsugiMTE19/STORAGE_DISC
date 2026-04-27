@@ -158,9 +158,7 @@ Clima operativo: ostentazione – fretta
 Accesso area di supporto psicologico
 Scale affollate
 Sala d’attesa: sovraccarico sensoriale
-Borg presenti → instabilità evidente
-Movimenti erratici
-Parole non contestualizzate
+Borg presenti → instabilità emotiva - movimenti erratici - parole non contestualizzate
 Nota interna:
 pattern ricorrente → Recarsi qui il meno possibile
 —
@@ -280,7 +278,7 @@ Domanda: Kenji
 Risposta fornita: incompleta
 —
 16:32
-[CORRUPT_DELETE]VIOLAZIONE DEL SIST[/CORRUPT_DELETE]
+[CORRUPT_DELETE]!VIOLAZIONE DEL SIST[/CORRUPT_DELETE]
 > PROTOCOLLI DI SICUREZZA DISATTIVATI
 > INIZIO PROCEDURA TECNICA
 16:42
@@ -326,7 +324,7 @@ Posizione Sascha: sgabuzzino
 Stato: addormentato → sveglio → instabile
 —
 17:12
-Movimento Sascha → uscita del Totentants
+Movimento Sascha → uscita del Totentantz
 Obiettivo: 
 documenti falsi - estrazione Polaris
 Recupero:
@@ -386,8 +384,8 @@ Proiettile → traiettoria finestra
 Vivienne → Deceduta
 Coniuge → Illeso
 [CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricerca pattern in "TAICHI.MEM"[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricalibrazione "KINTSUGI.SYS"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricerca pattern emotivo umano in "TAICHI.MEM"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricalibrazione emotiva "KINTSUGI.SYS"[/CORRUPT_DELETE]
 [CRITICALGLITCH]
 Risposta emotiva: ignorata
 Trasferire coniuge → luogo sicuro
