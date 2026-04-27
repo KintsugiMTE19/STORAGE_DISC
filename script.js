@@ -386,6 +386,7 @@ Coniuge → Illeso
 [CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva[/CORRUPT_DELETE]
 [CORRUPT_DELETE]Ricerca pattern emotivo umano in "TAICHI.MEM"[/CORRUPT_DELETE]
 [CORRUPT_DELETE]Ricalibrazione emotiva "KINTSUGI.SYS"[/CORRUPT_DELETE]
+[GLITCH]
 [CRITICALGLITCH]
 Risposta emotiva: ignorata
 Trasferire coniuge → luogo sicuro
