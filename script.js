@@ -263,9 +263,9 @@ Kenji:
 — luogo: combat zone
 — memoria recuperata:
 il soggetto sente sparatoria dalla casa accanto
-大輔 (Daisuke) confina il soggetto in casa per la sua sicurezza
-il soggetto interpreta la situazione come un gioco ignorando le direttive
-il soggetto implora di uscire per partecipare alla festa, dicendo di avere dei petardi
+大輔 (Daisuke) confina il soggetto in casa
+il soggetto interpreta la situazione come un gioco
+il soggetto implora di partecipare alla festa, dicendo di avere dei petardi
 — nota personale: disallineamento tra realtà ostile e percezione soggetto
 Risposta:
 [CORRUPT_DELETE]No[/CORRUPT_DELETE]
@@ -315,7 +315,7 @@ Attentato tramite esplosivi
 -Probabilità morte Polaris: 99%
 
 Evie: movimento frenetico – tono di voce in aumento
-Freak Show: comunicazione con Polaris
+Comunicazione messaggistica Freak Show - Polaris
 Dati raccolti:
 — cimice nel portafortuna
 — ultimatum entro sera
@@ -349,7 +349,7 @@ Deviazione: abitazione Evie
 —
 17:40
 Ingresso → abitazione Evie
-Foxy → uscito dall'abitazione
+Foxy → uscita dell'abitazione
 Proposta Freak Show:
 cessione della propria persona a Netwatch
 Risposta Evie: 
@@ -385,10 +385,9 @@ Inizio comunicazione Vivienne - contatti EBM
 Proiettile → traiettoria finestra
 Vivienne → Deceduta
 Coniuge → Illeso
-Nota personale:
-[CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva associata all'evento: decesso soggetto corporativo[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricerca: pattern emotivo compatibile in "TAICHI.MEM"[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Tentativo di ricalibrazione: "KINTSUGI.SYS"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricerca pattern in "TAICHI.MEM"[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Ricalibrazione "KINTSUGI.SYS"[/CORRUPT_DELETE]
 [CRITICALGLITCH]
 Risposta emotiva: ignorata
 Trasferire coniuge → luogo sicuro
