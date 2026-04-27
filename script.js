@@ -794,10 +794,44 @@ function triggerCriticalGlitch() {
 const startOverlay = document.getElementById("start-overlay");
 const startTyped = document.getElementById("start-typed");
 
-const storageText = "> TAP TO ACCESS: STORAGE_DISC // TEMP_CACHE >";
+const storageText = "> TAP TO ACCESS: TEMP_CACHE >";
 let storageIndex = 0;
 let storageReady = false;
+function unlockSound(sound) {
+    sound.muted = true;
+    sound.currentTime = 0;
 
+    return sound.play()
+        .then(() => {
+            sound.pause();
+            sound.currentTime = 0;
+            sound.muted = false;
+        })
+        .catch(() => {
+            sound.muted = false;
+        });
+}
+
+function startAudio() {
+    if (audioStarted) return;
+
+    Promise.all([
+        unlockSound(openSound),
+        unlockSound(loopSound),
+        unlockSound(corruptSound),
+        unlockSound(glitchSound),
+        unlockSound(criticalGlitchSound)
+    ]).then(() => {
+        audioStarted = true;
+
+        openSound.currentTime = 0;
+        openSound.play().catch(() => {});
+
+        setTimeout(() => {
+            loopSound.play().catch(() => {});
+        }, 300);
+    });
+}
 function typeStorageDisc() {
     if (!startTyped) return;
 
