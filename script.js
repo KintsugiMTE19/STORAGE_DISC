@@ -260,7 +260,7 @@ Risposta fornita: incompleta
 16:43
 Responso Daisuke:
 — non completo
-— necessarie altre 2 sessioni
+— necessarie altre 3 sessioni
 Registrazione dolore: trascurabile
 —
 17:00
