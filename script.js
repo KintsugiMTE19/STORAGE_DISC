@@ -28,6 +28,7 @@ const corruptSound = new Audio("suoni kintsugi/parola corrotta.mp3");
 const glitchSound = new Audio("suoni kintsugi/glitch.mp3");
 const criticalGlitchSound = new Audio("suoni kintsugi/critical glitch.mp3");
 
+// SUONI E VOLUME
 loopSound.loop = true;
 
 openSound.volume = 0.3;
@@ -35,15 +36,26 @@ loopSound.volume = 0.1;
 corruptSound.volume = 1;
 glitchSound.volume = 1;
 criticalGlitchSound.volume = 1;
+//GLITCH PIU ALTI su mobile
 function playSound(sound) {
-    const s1 = sound.cloneNode();
-    const s2 = sound.cloneNode();
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-    s1.volume = 1;
-    s2.volume = 1;
+    if (!isMobile) {
+        sound.currentTime = 0;
+        sound.play().catch(() => {});
+        return;
+    }
+
+    const s1 = sound.cloneNode(true);
+    const s2 = sound.cloneNode(true);
+
+    s1.volume = sound.volume;
+    s2.volume = sound.volume;
 
     s1.play().catch(() => {});
-    setTimeout(() => s2.play().catch(() => {}), 20);
+    setTimeout(() => {
+        s2.play().catch(() => {});
+    }, 15);
 }
 
 let audioStarted = false;
@@ -667,7 +679,7 @@ function typeFinal() {
     }
 }
 
-// TESTO CHE SI CORROMPE E POI SCOMPARE SUBITO
+// TESTO CORRUPT DELETE
 function typeCorruptAndDelete(text) {
     let i = 0;
     let visibleText = "";
@@ -827,7 +839,7 @@ function triggerCriticalGlitch() {
     }, 45);
 }
 
-// STORAGE DISC DIGITATO AUTOMATICAMENTE
+// STORAGE DISC TAP TO ACCESS
 const startOverlay = document.getElementById("start-overlay");
 const startTyped = document.getElementById("start-typed");
 
