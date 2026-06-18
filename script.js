@@ -134,262 +134,526 @@ const corruptMap = {
 "?": "!",
 };
 
-const finalText = `06:00
-Avvio del sistema
-Polaris: addormentata
-Freak Show: posizione sconosciuta
-Evie: posizione sconosciuta
-Vortex: posizione sconosciuta
-—
-06:05
-Condizioni volto ripristinate
-Microfratture dermiche: rimarginate
-Composizione messaggio:
-Destinatari → Polaris / Freak Show / Evie
-Contenuto: “Ci vediamo dopo il turno”
-Invio completato
-—
-06:30
-Ingresso Corporate Plaza
-Profumi molecolari rilevati
-Clima operativo: ostentazione – fretta
-—
-06:35
-Accesso area di supporto psicologico
-Scale affollate
-Sala d’attesa: sovraccarico sensoriale
-Borg presenti → instabilità emotiva - movimenti erratici - parole non contestualizzate
-Nota interna:
-pattern ricorrente → Recarsi qui il meno possibile
-—
-06:50
-Ingresso studio
-Tono psicologo: autoritario - deluso
-Argomenti:
-— assenza terapia: 1 mese
-— obbligo meditazione: 10 minuti / giorno
-[CORRUPT_DELETE]Incolpare Vance[/CORRUPT_DELETE]
-Non parlare di Vance
-[CORRUPT_DELETE]Non lo farò[/CORRUPT_DELETE]
-[GLITCH]
-Risposta:
-Lo farò
-Ricezione oggetto:
-Biglietto SASLCT (sindacato lavoratori)
-Reazione:
-umorismo interno 75%
-incoerenza logica → super chippati – lavoratori - diritti 
->AVVIO PROTOCOLLO MEDITAZIONE
-rumore attenuato
-abilità cognitiva ridotta
-07:50
->PROTOCOLLO MEDITAZIONE TERMINATO
-—
-07:55
-Messaggio in ingresso — Freak Show
-Richieste:
-— raggiungere Daisuke
-— upgrade cyberdeck
-— disattivazione chip sabotaggio
-Azione confermata
-—
-08:00
-Accompagnamento: Kamilah → conferenza comunale
-Presenti: corporazioni / sindaco Mbole Ebunike / guardie armate
-Osservazione:
-guardie → livelli di stress: alti → molti cyberware
-Nota interna:
-l'incubo del SALSCT
-—
-15:50
-Conversazione con Kamilah
-Tema: Tomobiki
-Fiducia Kamilah → alta
-Valutazione Tomobiki:
-— non discreto
-— approccio aggressivo probabile
-Decisione Kamilah:
-— organizzerà incontro
-— esclusione altri edgerunner
-— segretezza richiesta
-Accettazione: automatica
-—
-15:55
-Messaggio inviato → Freak Show
-“Ho finito il turno, ci vediamo al Mallplex.”
-—
-16:00
-Chiamata in ingresso — Evie
-Contenuto:
-— attacco cannibali
-— stato agitato
-— Evie stabile
-Condivisione evento psicologo
-Proposta Evie: meditazione congiunta
-Evento simultaneo:
-probabilità incidente stradale: 67%
-tono vocale elevato
-controllo emotivo: compromesso
-Risposta ad Evie: affermativa
-—
-16:15
-Freak Show: individuato
-Informazioni su Tomobiki:
-non condivise
-Ingresso negozio 
-Daisuke: individuato
-—
-16:20
-Kenji: individuato
-Acquisto: ciambella
-Simulazione difetto ciambella
-Avvicinamento riuscito
-[CORRUPT_DELETE]健司元気ですか?[/CORRUPT_DELETE]
-Switch linguistico → giapponese 
-Kenji:
-— insoddisfazione 
-— interesse rilevato → Atlantis
-— menzione Slammer
-— menzione Totentatz
-— richiesta di accompagnamento
-Recupero dati KINSTUGI.SYS
-— soggetto: Freak Show
-— luogo: Atlantis
-— oggetto recuperato: interazione intima non consensuale
-Recupero dati TAICHI.MEM
-— soggetto: 健司 (Kenji) anni: 5
-— luogo: combat zone
-— memoria recuperata:
-il soggetto sente sparatoria dalla casa accanto
-大輔 (Daisuke) confina il soggetto in casa
-il soggetto interpreta la situazione come un gioco
-il soggetto implora di partecipare alla festa, dicendo di avere dei petardi
-— nota personale: disallineamento tra realtà ostile e percezione soggetto
-Risposta:
-[CORRUPT_DELETE]No[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Forse[/CORRUPT_DELETE]
-assenso parziale con condizioni
-Probabilità errore: 95%
-Scambio contatti
-—
-16:30
-Daisuke: individuato
-Domanda: Kenji
-Risposta fornita: incompleta
-—
-16:32
-[CORRUPT_DELETE]!VIOLAZIONE DEL SIST[/CORRUPT_DELETE]
-> PROTOCOLLI DI SICUREZZA DISATTIVATI
-> INIZIO PROCEDURA TECNICA
-16:42
-> PROCEDURA TECNICA TERMINATA
-16:43
-Responso Daisuke:
-— non completo
-— necessarie altre 3 sessioni
-Registrazione dolore: trascurabile
-—
-17:00
-Arrivo → Totentantz
-Freak Show: individuato
-Evie: individuata
-Messaggio in ingresso: Polaris
-“David sa tutto, lo ha sempre saputo.”
-—
-17:05
->BIOMONITOR: Cortisolo ↑
->BIOMONITOR: Adrenalina ↑ 
-[CORRUPT_DELETE]Operazione di salvataggio[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Uccidere David[/CORRUPT_DELETE]
-[GLITCH]
-Opzioni:
-Eliminazione David
--Probabilità di riuscita: 50%
--Probabilità morte Polaris: 99%
-[CORRUPT_DELETE]Utilizzo granate framm[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Massacro[/CORRUPT_DELETE]
-Attentato tramite esplosivi
--Probabilità di riuscita: 20%
--Probabilità morte Polaris: 99%
+const finalText = `13:00
+Uscita → Teatro
 
-Evie: movimento frenetico – tono di voce in aumento
-Comunicazione messaggistica Freak Show - Polaris
-Dati raccolti:
-— cimice nel portafortuna
-— ultimatum entro sera
-Decisione finale: contattare EBM
+> BIOMONITOR: Cortisolo ↓
+
+Valutazione Polaris:
+richiesta → cimitero con Ryuji
+
+Analisi rischio:
+— probabilità aggressione: bassa
+— capacità difensive Polaris: adeguate
+
+Decisione:
+autonoma
+
 —
-17:10
-Posizione Sascha: sgabuzzino
-Stato: addormentato → sveglio → instabile
-—
-17:12
-Movimento Sascha → uscita del Totentantz
-Obiettivo: 
-documenti falsi - estrazione Polaris
-Recupero:
-Kintsugi → inseguimento → lesioni verbali → fallimento
-Evie → inseguimento → manipolazione persuasiva → successo
-Esito: ritorno del soggetto
-—
-17:15
-Vortex: individuato
-Istruzioni: 
-fermare Sascha se necessario
-Proposta Vortex: 
-riorganizzazione denti non consensuale
-Risposta: 
-assenso condizionato
-—
-17:16
+
+13:05
+
 Movimento → Corporate Plaza
-Deviazione: abitazione Evie
+
 —
-17:40
-Ingresso → abitazione Evie
-Foxy → uscita dell'abitazione
-Proposta Freak Show:
-cessione della propria persona a Netwatch
-Risposta Evie: 
-opposizione assoluta
-Valutazione Kintsugi:
-[CORRUPT_DELETE]Recupero dati KINSTUGI.SYS[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Recupero dati TAICHI.MEM[/CORRUPT_DELETE]
-Alternative rilevate:
-0
+
+13:10
+
+Inizio turno
+
+Routine:
+— sorveglianza
+— accompagnamento
+— obbligo di intimità
+
+Anomalie:
+nessuna
+
+Tomobiki:
+non menzionato
+
+—
+
+21:00
+
+Fine turno
+
+—
+
+22:00
+
+Arrivo → Mallplex
+
+> EVENTO
+sicurezza espelle tre mercenari
+
+Scansione:
+modifiche illegali rilevate
+
+—
+
+22:01
+
+Kenji: individuato
+
+Contatto visivo:
+stabilito
+
+[CORRUPT_DELETE]健司、会いたかった[/CORRUPT_DELETE]
+
+Switch linguistico → giapponese
+
+Kenji:
+— turno terminato
+— proposta: entrare
+
 Risposta:
-Autonomia decisionale del soggetto Freak Show sottolineata
+affermativa
+
 —
-17:50
-Accesso al piano superiore
-Guardie:
-— addestramento alto
-— potenziale letale
-Ingresso autorizzato
+
+22:10
+
+Ingresso → abitazione Kenji
+
+Kenji → camera da letto
+
+> SCANSIONE AMBIENTE
+
+Oggetti rilevati:
+— fotografie corso addestramento sicurezza Mallplex, nuovo impianto cyberware, compagni di corso
+— fotografia famiglia
+大輔 (Daisuke)
+健司 (Kenji)
+[CORRUPT_DELETE]Florence[/CORRUPT_DELETE]
+
+> SCANSIONE SCAFFALI
+
+Bottiglie di alcolici: nessuna
+
 —
-17:51
-Comunicazione Evie - Vivienne
+
+22:20
+
+Kenji → sala da pranzo
+
+Presentazione abiti
+
+Analisi:
+— vulnerabilità collo
+— vulnerabilità braccia
+— vulnerabilità gambe
+
+Fattore di rischio: 
+75%
+
+Correzione:
+consegna cappotto rinforzato
+
+Stato:
+non negoziabile
+
+—
+
+22:35
+
+Piano inferiore
+
+Consumo pasto
+
+Attesa completata
+
+—
+
+00:30
+
+Movimento → Atlantis
+
+Presentazioni:
+— Polaris
+— Freak Show
+— Evie
+— [CORRUPT_DELETE]Sasha[/CORRUPT_DELETE]
+— ospite inatteso: Sasha
+
+Protocollo serata:
+
+— alcol → approvazione richiesta
+— droghe → approvazione richiesta
+— partner occasionali → valutazione del rischio preventiva
+
+—
+
+01:00
+
+Kenji:
+interesse visivo rilevato
+
+Soggetto osservato:
+Rogue
+
+Evie:
+informazione fornita: soggetto inavvicinabile
+
+Stato del gruppo:
+— notorietà elevata
+— accesso prioritario
+
+Evento simultaneo:
+
+Sasha:
+tentativo ingresso autonomo
+
+Esito:
+allontanato sicurezza
+
+Secondo tentativo:
+successo
+
+Rogue:
+richiesta di ingresso prioritario del gruppo
+
+Risposta bodyguard:
+positiva
+
+Evento simultaneo:
+Sasha espulso nuovamente
+
+
+—
+
+01:10
+
+Ingresso Atlantis
+
+Evento:
+assembramento
+
+Fan:
+contatto fisico non autorizzato
+
+Tocco rilevato:
+mani multiple
+
+[CORRUPT_DELETE]Utilizzo del teaser ap[/CORRUPT_DELETE]
+Livello di fastidio:
+ignorato
+
+—
+
+01:15
+
+Ordinazioni
+
+Kenji:
+inesperienza
+
+Analisi cocktail
+
+Decisione personale:
+Morgan Blackhand
+
+Decisione Kenji:
+selezione opzione più palatabile
+
+—
+
+01:16
+
+Kenji:
+trascinato da soggetto femminile
+
+Valutazione Freak Show:
+
+— cyberware offensivi: basilari
+— armi: basilari
+
+Livello rischio:
+contenibile
+
+—
+
+01:20
+
+Polaris → bancone
+
+Volume voce:
+alto
+
 Contenuto:
-— posizione: Silver Dragon
-— identità nota
-— copertura saltata
-— necessità discrezione
-Reazione Vivienne: panico
-Inizio comunicazione Vivienne - contatti EBM
+coinvolgimento attacco Silver Dragon
+
+Freak Show:
+raggiunge Polaris
+
+Perdita tracciamento:
+— Evie
+— Kenji
+
 —
-17:55:03
-> EVENTO CRITICO RILEVATO
-> SCRITTURA IMMEDIATA SU "KINTSUGI.SYS - LONG_TERM_STORAGE"
-Proiettile → traiettoria finestra
-Vivienne → Deceduta
-Coniuge → Illeso
-[CORRUPT_DELETE]!ANOMALIA!: risposta emotiva positiva associata a: decesso corpor[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricerca pattern umano in "TAICHI.MEM"[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Ricalibrazione "KINTSUGI.SYS"[/CORRUPT_DELETE]
-[CRITICALGLITCH]
-Risposta emotiva: ignorata
-Trasferire coniuge → luogo sicuro
+
+01:22
+
+Evie → identificata
+
+Movimento:
+divanetto
+
+Obiettivo:
+— visuale completa locale
+— riduzione contatto fisico indesiderato
+
 —
+
+01:30
+
+Tavolo isolato
+
+Sensore termico:
+
+Kenji
+→ schiaffo ricevuto
+
+Tasso alcolemico:
+↑
+
+[CORRUPT_DELETE]Intervento necess[/CORRUPT_DELETE]
+
+Decisione:
+continuare consumo alcol
+
+—
+
+01:40
+
+Kenji:
+nuovo contatto femminile
+
+Valutazione Freak Show:
+
+rischio:
+analogo a precedente
+
+Esito:
+secondo rifiuto
+
+Evento simultaneo: Avvicinamento Sasha
+
+Sasha:
+esposizione di due soggetti femminili
+
+Emotività soggetto:
+Altezzoso, instabile
+
+Contenuto della conversazione:
+irrilevante
+
+—
+
+01:45
+
+Polaris → pista da ballo
+
+Stato emotivo:
+euforia
+irritazione
+
+—
+
+02:00
+
+Kenji → bancone
+
+Stato fisico:
+intossicazione alcolica
+
+Movimento:
+bancone
+
+Osservazione comunicata:
+consumo eccessivo di alcol
+
+Emotività soggetto:
+ostilità
+
+Argomenti:
+
+— troppe attenzioni
+— assenza di autorità 
+
+[CORRUPT_DELETE]Ti stai comportando come un cogl[/CORRUPT_DELETE]
+
+Segni clinici:
+vomito imminente
+
+—
+
+02:05
+
+Kenji, Kintsugi → servizi igienici
+
+Supporto motorio:
+necessario
+
+Accensione sigaretta:
+Livelli di cortisolo ⭣
+
+Rumori ambientali:
+due rapporti sessuali in corso
+
+Priorità audio:
+isolamento suono Kenji
+
+Monitoraggio:
+continuo
+
+—
+
+02:15
+
+Kenji ⭢ lavabo
+
+Lavaggio volto
+
+Comunicazione:
+
+— consumo alcol → interazioni sociali compromesse
+— incitamento a non pensare troppo a cosa dire
+
+Kenji:
+
+utilizza identificativo:
+Kintsugi, non 太一
+
+[CORRUPT_DELETE]Mi dispiace[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Non è stata colp[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Fottiti, dovresti ringrazia[/CORRUPT_DELETE]
+
+[GLITCH]
+
+Comunicazione finale:
+Tuo padre 大輔 non avrebbe permesso questa esperienza
+
+Kenji ⭢ uscita bagno
+
+Sigaretta:
+spenta sul bancone
+
+—
+
+02:20
+
+Ritorno bancone
+
+Presenti:
+— Evie
+— Freak Show
+
+—
+
+02:22
+
+Polaris ⭢ uscita servizi
+
+Sventata collisione:
+soggetto sconosciuto
+
+Livello pericolosità soggetto:
+elevato
+
+Osservazione reciproca
+
+Polaris:
+ritorno pista
+
+Contatto:
+Kenji
+
+Contatto visivo:
+Polaris → Kintsugi
+
+Conversazione:
+non udibile
+
+—
+
+02:30
+
+Kenji:
+cessazione comportamento impulsivo
+
+Bevanda:
+analcolica
+
+Socializzazione:
+in miglioramento
+
+—
+
+02:32
+
+Contenuto domanda Kintsugi → Polaris:
+motivazione del cambio comportamentale del soggetto Kenji
+
+Risposta:
+
+— gestione Kintsugi: eccessivamente pressante
+— empatia Kintugi: scarsa
+
+Suggerimento:
+
+mostrare Night City
+progressivamente
+
+Valutazione:
+compatibilità con TAICHI.MEM:
+accettabile
+
+—
+
+02:40
+
+Freak Show:
+comunicazione privata con Polaris
+
+Polaris → retro locale
+
+—
+
+02:45
+
+Sensore termografico
+
+Kenji:
+allontanamento
+
+Compagnia:
+soggetto femminile
+
+Valutazione:
+interazione consensuale probabile
+
+Rischio:
+basso
+
+Evento simultaneo:
+
+Sasha: 
+abbandono compagnia precedente
+
+Sasha → retro locale
+
+Coincidenza:
+improbabile
+
+> BIOMONITOR: Cortisolo ↑
+
+Nota interna:
+
+qualcosa non torna
+
+—
+
 FINE REGISTRAZIONE PARZIALE
 `;
 
