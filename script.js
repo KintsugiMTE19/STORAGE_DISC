@@ -153,7 +153,7 @@ autonoma
 
 13:05
 
-Movimento → Corporate Plaza
+Kintsugi → Corporate Plaza
 
 —
 
@@ -182,7 +182,7 @@ Fine turno
 
 22:00
 
-Arrivo → Mallplex
+Kintsugi → Mallplex
 
 > EVENTO
 sicurezza espelle tre mercenari
@@ -237,9 +237,7 @@ Bottiglie di alcolici: nessuna
 
 Kenji → sala da pranzo
 
-Presentazione abiti
-
-Analisi:
+Analisi vestiario:
 — vulnerabilità collo
 — vulnerabilità braccia
 — vulnerabilità gambe
@@ -261,26 +259,32 @@ Piano inferiore
 
 Consumo pasto
 
+—
+
+00:20
+
 Attesa completata
 
 —
 
 00:30
 
-Movimento → Atlantis
+Kintsugi, Kenji → Atlantis
 
 Presentazioni:
 — Polaris
 — Freak Show
 — Evie
-— [CORRUPT_DELETE]Sasha[/CORRUPT_DELETE]
-— ospite inatteso: Sasha
+[CORRUPT_DELETE]— Sasha[/CORRUPT_DELETE]
+
+Ospite inatteso: 
+Sasha
 
 Protocollo serata:
 
 — alcol → approvazione richiesta
 — droghe → approvazione richiesta
-— partner occasionali → valutazione del rischio preventiva
+— partner occasionali → valutazione del rischio richiesta
 
 —
 
@@ -293,7 +297,7 @@ Soggetto osservato:
 Rogue
 
 Evie:
-informazione fornita: soggetto inavvicinabile
+informazione fornita: Rogue = soggetto inavvicinabile
 
 Stato del gruppo:
 — notorietà elevata
@@ -302,10 +306,10 @@ Stato del gruppo:
 Evento simultaneo:
 
 Sasha:
-tentativo ingresso autonomo
+tentativo di ingresso autonomo
 
 Esito:
-allontanato sicurezza
+allontanato
 
 Secondo tentativo:
 successo
@@ -314,10 +318,10 @@ Rogue:
 richiesta di ingresso prioritario del gruppo
 
 Risposta bodyguard:
-positiva
+affermativa
 
 Evento simultaneo:
-Sasha espulso nuovamente
+Sasha espulso dalla sicurezza
 
 
 —
@@ -345,16 +349,13 @@ ignorato
 
 Ordinazioni
 
-Kenji:
-inesperienza
+Inesperienza Kenji: 
+allarmante
 
-Analisi cocktail
+Analisi cocktail:
 
-Decisione personale:
-Morgan Blackhand
-
-Decisione Kenji:
-selezione opzione più palatabile
+Decisione personale: Morgan Blackhand
+Decisione Kenji: opzione più palatabile
 
 —
 
@@ -369,22 +370,22 @@ Valutazione Freak Show:
 — armi: basilari
 
 Livello rischio:
-contenibile
+accettabile
 
 —
 
 01:20
 
-Polaris → bancone
+Polaris → sul bancone
 
 Volume voce:
-alto
+in aumento
 
 Contenuto:
 coinvolgimento attacco Silver Dragon
+dettagli: fantasiosi
 
-Freak Show:
-raggiunge Polaris
+Freak Show → sul bancone
 
 Perdita tracciamento:
 — Evie
@@ -394,10 +395,8 @@ Perdita tracciamento:
 
 01:22
 
-Evie → identificata
-
-Movimento:
-divanetto
+Evie identificata → divanetto
+Kintsugi → divanetto
 
 Obiettivo:
 — visuale completa locale
@@ -407,15 +406,14 @@ Obiettivo:
 
 01:30
 
-Tavolo isolato
+Evie, Kintsugi, Polaris, Freak Show → Tavolo isolato
 
 Sensore termico:
 
 Kenji
 → schiaffo ricevuto
 
-Tasso alcolemico:
-↑
+Tasso alcolemico ↑
 
 [CORRUPT_DELETE]Intervento necess[/CORRUPT_DELETE]
 
@@ -427,7 +425,7 @@ continuare consumo alcol
 01:40
 
 Kenji:
-nuovo contatto femminile
+secondo contatto femminile
 
 Valutazione Freak Show:
 
@@ -440,13 +438,13 @@ secondo rifiuto
 Evento simultaneo: Avvicinamento Sasha
 
 Sasha:
-esposizione di due soggetti femminili
+esibizione di due soggetti femminili
 
-Emotività soggetto:
+Stato emotivo:
 Altezzoso, instabile
 
 Contenuto della conversazione:
-irrilevante
+trascurabile
 
 —
 
@@ -455,8 +453,7 @@ irrilevante
 Polaris → pista da ballo
 
 Stato emotivo:
-euforia
-irritazione
+euforica, irritata
 
 —
 
@@ -465,25 +462,23 @@ irritazione
 Kenji → bancone
 
 Stato fisico:
-intossicazione alcolica
+intossicazione da alcol
 
-Movimento:
-bancone
+Kintsugi → bancone
 
 Osservazione comunicata:
 consumo eccessivo di alcol
 
 Emotività soggetto:
-ostilità
+ostile
 
 Argomenti:
-
 — troppe attenzioni
 — assenza di autorità 
 
 [CORRUPT_DELETE]Ti stai comportando come un cogl[/CORRUPT_DELETE]
 
-Segni clinici:
+Stato clinico:
 vomito imminente
 
 —
@@ -504,9 +499,6 @@ due rapporti sessuali in corso
 Priorità audio:
 isolamento suono Kenji
 
-Monitoraggio:
-continuo
-
 —
 
 02:15
@@ -515,35 +507,30 @@ Kenji ⭢ lavabo
 
 Lavaggio volto
 
-Comunicazione:
+Comunicazione Kintsugi:
 
 — consumo alcol → interazioni sociali compromesse
 — incitamento a non pensare troppo a cosa dire
 
-Kenji:
-
+Risposta Kenji:
+— sottolinea l'assenza prolungata del padre adottivo
 utilizza identificativo:
 Kintsugi, non 太一
 
-[CORRUPT_DELETE]Mi dispiace[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Non è stata colp[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Fottiti, dovresti ringrazia[/CORRUPT_DELETE]
-
+Risposta definitiva:
+[CORRUPT_DELETE]Scusami[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Fottit[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Dovresti ringraziar[/CORRUPT_DELETE]
 [GLITCH]
-
-Comunicazione finale:
-Tuo padre 大輔 non avrebbe permesso questa esperienza
+Il padre biologico 大輔 non avrebbe permesso questa esperienza
 
 Kenji ⭢ uscita bagno
-
-Sigaretta:
-spenta sul bancone
 
 —
 
 02:20
 
-Ritorno bancone
+Kintsugi ⭢ bancone
 
 Presenti:
 — Evie
@@ -558,13 +545,13 @@ Polaris ⭢ uscita servizi
 Sventata collisione:
 soggetto sconosciuto
 
-Livello pericolosità soggetto:
-elevato
-
-Osservazione reciproca
+Pericolosità soggetto:
+elevata
 
 Polaris:
-ritorno pista
+finge inoffensività
+
+Polaris ⭢ pista
 
 Contatto:
 Kenji
@@ -572,7 +559,7 @@ Kenji
 Contatto visivo:
 Polaris → Kintsugi
 
-Conversazione:
+Conversazione Kenji - Polaris:
 non udibile
 
 —
@@ -592,13 +579,13 @@ in miglioramento
 
 02:32
 
-Contenuto domanda Kintsugi → Polaris:
+Domanda Kintsugi - Polaris:
 motivazione del cambio comportamentale del soggetto Kenji
 
 Risposta:
 
-— gestione Kintsugi: eccessivamente pressante
-— empatia Kintugi: scarsa
+— gestione Kintsugi: errata, pressante
+— empatia Kintsugi: scarsa
 
 Suggerimento:
 
@@ -628,10 +615,10 @@ Kenji:
 allontanamento
 
 Compagnia:
-soggetto femminile
+gruppo
 
-Valutazione:
-interazione consensuale probabile
+Evento:
+interazione consensuale con soggetto femminile
 
 Rischio:
 basso
@@ -650,7 +637,7 @@ improbabile
 
 Nota interna:
 
-qualcosa non torna
+sta succedendo qualcosa
 
 —
 
