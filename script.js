@@ -137,7 +137,7 @@ const corruptMap = {
 const finalText = `13:00
 Uscita → Teatro
 
-> BIOMONITOR: Cortisolo ↓
+> BIOMONITOR: Frequenza cardiaca ↓
 
 Valutazione Polaris:
 richiesta → cimitero con Ryuji
@@ -185,7 +185,7 @@ Fine turno
 Kintsugi → Mallplex
 
 > EVENTO
-sicurezza espelle tre nomadi
+sicurezza espelle tre mercenari
 
 Scansione:
 modifiche illegali rilevate
@@ -449,8 +449,10 @@ trascurabile
 Kenji:
 primo contatto maschile
 
+[CORRUPT_DELETE]Valutazione Freak S[/CORRUPT_DELETE]
+
 Esito:
-Kenji rifiuta
+rifiuto di Kenji
 
 —
 
@@ -496,8 +498,7 @@ Kenji, Kintsugi → servizi igienici
 Supporto motorio:
 necessario
 
-Accensione sigaretta:
-Livelli di cortisolo ⭣
+Accensione sigaretta
 
 Rumori ambientali:
 due rapporti sessuali in corso
