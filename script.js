@@ -185,7 +185,7 @@ Fine turno
 Kintsugi → Mallplex
 
 > EVENTO
-sicurezza espelle tre mercenari
+sicurezza espelle tre nomadi
 
 Scansione:
 modifiche illegali rilevate
@@ -445,6 +445,12 @@ Altezzoso, instabile
 
 Contenuto della conversazione:
 trascurabile
+
+Kenji:
+primo contatto maschile
+
+Esito:
+Kenji rifiuta
 
 —
 
