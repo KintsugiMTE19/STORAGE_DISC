@@ -301,7 +301,7 @@ informazione fornita: Rogue = soggetto inavvicinabile
 
 Stato del gruppo:
 — notorietà elevata
-— accesso prioritario
+— probabile accesso prioritario
 
 Evento simultaneo:
 
@@ -321,7 +321,7 @@ Risposta bodyguard:
 affermativa
 
 Evento simultaneo:
-Sasha espulso dalla sicurezza
+Sasha espulso dal locale
 
 
 —
@@ -395,12 +395,14 @@ Perdita tracciamento:
 
 01:22
 
-Evie identificata → divanetto
+Evie identificata
+Posizione: divanetto
+
 Kintsugi → divanetto
 
 Obiettivo:
 — visuale completa locale
-— riduzione contatto fisico indesiderato
+— riduzione contatto fisico
 
 —
 
@@ -408,8 +410,7 @@ Obiettivo:
 
 Evie, Kintsugi, Polaris, Freak Show → Tavolo isolato
 
-Sensore termico:
-
+> SENSORE TERMOGRAFICO:
 Kenji
 → schiaffo ricevuto
 
@@ -424,6 +425,7 @@ continuare consumo alcol
 
 01:40
 
+> SENSORE TERMOGRAFICO:
 Kenji:
 secondo contatto femminile
 
@@ -443,9 +445,10 @@ esibizione di due soggetti femminili
 Stato emotivo:
 Altezzoso, instabile
 
-Contenuto della conversazione:
-trascurabile
+Tono della conversazione:
+passivo-aggressivo
 
+> SENSORE TERMOGRAFICO:
 Kenji:
 primo contatto maschile
 
@@ -461,7 +464,7 @@ rifiuto di Kenji
 Polaris → pista da ballo
 
 Stato emotivo:
-euforica, irritata
+euforica, irritabile
 
 —
 
@@ -474,17 +477,18 @@ intossicazione da alcol
 
 Kintsugi → bancone
 
-Osservazione comunicata:
+Osservazione Kintsugi:
 consumo eccessivo di alcol
 
-Emotività soggetto:
+Emotività soggetto Kenji:
 ostile
 
-Argomenti:
+Risposta Kenji:
 — troppe attenzioni
 — assenza di autorità 
 
-[CORRUPT_DELETE]Ti stai comportando come un cogl[/CORRUPT_DELETE]
+[CORRUPT_DELETE]Risposta Kintsugi:
+Ti stai comportando come un cogl[/CORRUPT_DELETE]
 
 Stato clinico:
 vomito imminente
@@ -515,16 +519,15 @@ Kenji ⭢ lavabo
 Lavaggio volto
 
 Comunicazione Kintsugi:
-
 — consumo alcol → interazioni sociali compromesse
 — incitamento a non pensare troppo a cosa dire
 
 Risposta Kenji:
 — sottolinea l'assenza prolungata del padre adottivo
-utilizza identificativo:
+— utilizza identificativo:
 Kintsugi, non 太一
 
-Risposta definitiva:
+Risposta Kintsugi:
 [CORRUPT_DELETE]Scusami[/CORRUPT_DELETE]
 [CORRUPT_DELETE]Fottit[/CORRUPT_DELETE]
 [CORRUPT_DELETE]Dovresti ringraziar[/CORRUPT_DELETE]
@@ -539,18 +542,17 @@ Kenji ⭢ uscita bagno
 
 Kintsugi ⭢ bancone
 
-Presenti:
-— Evie
-— Freak Show
+— Evie: individuata
+— Freak Show: individuato
 
 —
 
 02:22
 
-Polaris ⭢ uscita servizi
+Polaris ⭢ uscita servizi igienici
 
 Sventata collisione:
-soggetto sconosciuto
+Polaris - soggetto sconosciuto
 
 Pericolosità soggetto:
 elevata
@@ -561,10 +563,10 @@ finge inoffensività
 Polaris ⭢ pista
 
 Contatto:
-Kenji
+Polaris - Kenji
 
 Contatto visivo:
-Polaris → Kintsugi
+Polaris - Kintsugi
 
 Conversazione Kenji - Polaris:
 non udibile
@@ -589,17 +591,15 @@ in miglioramento
 Domanda Kintsugi - Polaris:
 motivazione del cambio comportamentale del soggetto Kenji
 
-Risposta:
-
+Risposta Polaris:
 — gestione Kintsugi: errata, pressante
 — empatia Kintsugi: scarsa
 
-Suggerimento:
-
+Suggerimento Polaris:
 mostrare Night City
 progressivamente
 
-Valutazione:
+Valutazione Kintusgi:
 compatibilità con TAICHI.MEM:
 accettabile
 
@@ -607,8 +607,11 @@ accettabile
 
 02:40
 
-Freak Show:
-comunicazione privata con Polaris
+Evento:
+comunicazione privata Freak Show - Polaris
+
+Contenuto:
+non udibile
 
 Polaris → retro locale
 
@@ -616,7 +619,7 @@ Polaris → retro locale
 
 02:45
 
-Sensore termografico
+> SENSORE TERMOGRAFICO:
 
 Kenji:
 allontanamento
