@@ -185,7 +185,7 @@ Fine turno
 Kintsugi → Mallplex
 
 > EVENTO
-sicurezza espelle tre mercenari
+sicurezza espelle tre nomadi
 
 Scansione:
 modifiche illegali rilevate
