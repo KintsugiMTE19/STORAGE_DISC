@@ -1,7 +1,7 @@
 const bootMessages = [
     "KINTSUGI_BOOT.SYS INIZIALIZZATO",
     "TAICHI_CORE_0329.MEM CARICATO",
-    "SISTEMA AVVIATO - GIORNO 0330"
+    "SISTEMA AVVIATO - GIORNO 0339"
 ];
 
 const authLines = [
