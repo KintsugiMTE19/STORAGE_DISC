@@ -240,3 +240,51 @@ body {
         height: 2px;
     }
 }
+
+/* COMANDI COLORE DEL DISPLAY */
+
+.crt-screen.display-red {
+    color: #f00;
+}
+
+
+/* CAMBIO DISPLAY BLU */
+
+.crt-screen.display-blue {
+
+    color: #00bfff;
+
+    box-shadow:
+        0 0 0 4px #203040,
+        0 0 30px rgba(0,180,255,0.4),
+        inset 0 0 20px rgba(0,180,255,0.25);
+
+}
+
+
+/* Cambia il velo del CRT */
+
+.crt-screen.display-blue::after {
+
+    background: rgba(0,120,255,0.25);
+
+}
+
+
+/* Cambia cursore */
+
+.crt-screen.display-blue .cursor {
+
+    background-color: #00bfff;
+
+}
+
+
+/* Cambia bagliore testo */
+
+.crt-screen.display-blue .terminal-text {
+
+    text-shadow:
+        0 0 5px rgba(0,180,255,0.9);
+
+}

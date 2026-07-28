@@ -20,6 +20,9 @@ const glitchTrigger = "[GLITCH]";
 const criticalTrigger = "[CRITICALGLITCH]";
 const corruptDeleteStart = "[CORRUPT_DELETE]";
 const corruptDeleteEnd = "[/CORRUPT_DELETE]";
+const displayBlueTrigger = "[DISPLAY:BLUE]";
+const displayRedTrigger = "[DISPLAY:RED]";
+const bgmStopTrigger = "[BGM:STOP]";
 
 // AUDIO
 const openSound = new Audio("suoni kintsugi/soundsboot.mp3");
@@ -91,6 +94,45 @@ async function startAudio() {
         unlockSound(criticalGlitchSound)
     ]);
 
+
+    function executeSystemCommand(command) {
+
+    const screen = document.querySelector(".crt-screen");
+
+    switch (command) {
+
+
+        case "DISPLAY:BLUE":
+
+            if (screen) {
+                screen.classList.remove("display-red");
+                screen.classList.add("display-blue");
+            }
+
+            break;
+
+
+        case "DISPLAY:RED":
+
+            if (screen) {
+                screen.classList.remove("display-blue");
+                screen.classList.add("display-red");
+            }
+
+            break;
+
+
+        case "BGM:STOP":
+
+            loopSound.pause();
+
+            break;
+
+
+    }
+
+}
+
     audioStarted = true;
 
     openSound.currentTime = 0;
@@ -136,518 +178,16 @@ const corruptMap = {
 
 const finalText = `13:00
 Uscita → Teatro
+[DISPLAY:BLUE]
 
-> BIOMONITOR: Frequenza cardiaca ↓
+ERRORE:
+REALITY DESYNCHRONIZATION
 
-Valutazione Polaris:
-richiesta → cimitero con Ryuji
+[BGM:STOP]
 
-Analisi rischio:
-— probabilità aggressione: bassa
-— capacità difensive Polaris: adeguate
+[DISPLAY:RED]
 
-Decisione:
-autonoma
 
-—
-
-13:05
-
-Kintsugi → Corporate Plaza
-
-—
-
-13:10
-
-Inizio turno
-
-Routine:
-— sorveglianza
-— accompagnamento
-— obbligo di intimità
-
-Anomalie:
-nessuna
-
-Tomobiki:
-non menzionato
-
-—
-
-21:00
-
-Fine turno
-
-—
-
-22:00
-
-Kintsugi → Mallplex
-
-> EVENTO
-sicurezza espelle tre nomadi
-
-Scansione:
-modifiche illegali rilevate
-
-—
-
-22:01
-
-Kenji: individuato
-
-Contatto visivo:
-stabilito
-
-[CORRUPT_DELETE]健司、会いたかった[/CORRUPT_DELETE]
-
-Switch linguistico → giapponese
-
-Kenji:
-— turno terminato
-— proposta: entrare
-
-Risposta:
-affermativa
-
-—
-
-22:10
-
-Ingresso → abitazione Kenji
-
-Kenji → camera da letto
-
-> SCANSIONE AMBIENTE
-
-Oggetti rilevati:
-— fotografie corso addestramento sicurezza Mallplex, nuovo impianto cyberware, compagni di corso
-— fotografia famiglia
-大輔 (Daisuke)
-健司 (Kenji)
-[CORRUPT_DELETE]Florence[/CORRUPT_DELETE]
-
-> SCANSIONE SCAFFALI
-
-Bottiglie di alcolici: nessuna
-
-—
-
-22:20
-
-Kenji → sala da pranzo
-
-Analisi vestiario:
-— vulnerabilità collo
-— vulnerabilità braccia
-— vulnerabilità gambe
-
-Fattore di rischio: 
-75%
-
-Correzione:
-consegna cappotto rinforzato
-
-Stato:
-non negoziabile
-
-—
-
-22:35
-
-Piano inferiore
-
-Consumo pasto
-
-—
-
-00:20
-
-Attesa completata
-
-—
-
-00:30
-
-Kintsugi, Kenji → Atlantis
-
-Presentazioni:
-— Polaris
-— Freak Show
-— Evie
-[CORRUPT_DELETE]— Sasha[/CORRUPT_DELETE]
-
-Ospite inatteso: 
-Sasha
-
-Protocollo serata:
-
-— alcol → approvazione richiesta
-— droghe → approvazione richiesta
-— partner occasionali → valutazione del rischio richiesta
-
-—
-
-01:00
-
-Kenji:
-interesse visivo rilevato
-
-Soggetto osservato:
-Rogue
-
-Evie:
-informazione fornita: Rogue = soggetto inavvicinabile
-
-Stato del gruppo:
-— notorietà elevata
-— probabile accesso prioritario
-
-Evento simultaneo:
-
-Sasha:
-tentativo di ingresso autonomo
-
-Esito:
-allontanato
-
-Secondo tentativo:
-successo
-
-Rogue:
-richiesta di ingresso prioritario del gruppo
-
-Risposta bodyguard:
-affermativa
-
-Evento simultaneo:
-Sasha espulso dal locale
-
-
-—
-
-01:10
-
-Ingresso Atlantis
-
-Evento:
-assembramento
-
-Fan:
-contatto fisico non autorizzato
-
-Tocco rilevato:
-mani multiple
-
-[CORRUPT_DELETE]Utilizzo del teaser ap[/CORRUPT_DELETE]
-Livello di fastidio:
-ignorato
-
-—
-
-01:15
-
-Ordinazioni
-
-Inesperienza Kenji: 
-allarmante
-
-Analisi cocktail:
-
-Decisione personale: Morgan Blackhand
-Decisione Kenji: opzione più palatabile
-
-—
-
-01:16
-
-Kenji:
-trascinato da soggetto femminile
-
-Valutazione Freak Show:
-
-— cyberware offensivi: basilari
-— armi: basilari
-
-Livello rischio:
-accettabile
-
-—
-
-01:20
-
-Polaris → sul bancone
-
-Volume voce:
-in aumento
-
-Contenuto:
-coinvolgimento attacco Silver Dragon
-dettagli: fantasiosi
-
-Freak Show → sul bancone
-
-Perdita tracciamento:
-— Evie
-— Kenji
-
-—
-
-01:22
-
-Evie identificata
-Posizione: divanetto
-
-Kintsugi → divanetto
-
-Obiettivo:
-— visuale completa locale
-— riduzione contatto fisico
-
-—
-
-01:30
-
-Evie, Kintsugi, Polaris, Freak Show → Tavolo isolato
-
-> SENSORE TERMOGRAFICO:
-Kenji
-→ schiaffo ricevuto
-
-Tasso alcolemico ↑
-
-[CORRUPT_DELETE]Intervento necess[/CORRUPT_DELETE]
-
-Decisione:
-continuare consumo alcol
-
-—
-
-01:40
-
-> SENSORE TERMOGRAFICO:
-Kenji:
-secondo contatto femminile
-
-Valutazione Freak Show:
-
-rischio:
-analogo a precedente
-
-Esito:
-secondo rifiuto
-
-Evento simultaneo: Avvicinamento Sasha
-
-Sasha:
-esibizione di due soggetti femminili
-
-Stato emotivo:
-Altezzoso, instabile
-
-Tono della conversazione:
-passivo-aggressivo
-
-> SENSORE TERMOGRAFICO:
-Kenji:
-primo contatto maschile
-
-[CORRUPT_DELETE]Valutazione Freak S[/CORRUPT_DELETE]
-
-Esito:
-rifiuto di Kenji
-
-—
-
-01:45
-
-Polaris → pista da ballo
-
-Stato emotivo:
-euforica, irritabile
-
-—
-
-02:00
-
-Kenji → bancone
-
-Stato fisico:
-intossicazione da alcol
-
-Kintsugi → bancone
-
-Osservazione Kintsugi:
-consumo eccessivo di alcol
-
-Emotività soggetto Kenji:
-ostile
-
-Risposta Kenji:
-— troppe attenzioni
-— assenza di autorità 
-
-[CORRUPT_DELETE]Risposta Kintsugi:
-Ti stai comportando come un cogl[/CORRUPT_DELETE]
-
-Stato clinico:
-vomito imminente
-
-—
-
-02:05
-
-Kenji, Kintsugi → servizi igienici
-
-Supporto motorio:
-necessario
-
-Accensione sigaretta
-
-Rumori ambientali:
-due rapporti sessuali in corso
-
-Priorità audio:
-isolamento suono Kenji
-
-—
-
-02:15
-
-Kenji ⭢ lavabo
-
-Lavaggio volto
-
-Comunicazione Kintsugi:
-— consumo alcol → interazioni sociali compromesse
-— incitamento a non pensare troppo a cosa dire
-
-Risposta Kenji:
-— sottolinea l'assenza prolungata del padre adottivo
-— utilizza identificativo:
-Kintsugi, non 太一
-
-Risposta Kintsugi:
-[CORRUPT_DELETE]Scusami[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Fottit[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Dovresti ringraziar[/CORRUPT_DELETE]
-[GLITCH]
-Il padre biologico 大輔 non avrebbe permesso questa esperienza
-
-Kenji ⭢ uscita bagno
-
-—
-
-02:20
-
-Kintsugi ⭢ bancone
-
-— Evie: individuata
-— Freak Show: individuato
-
-—
-
-02:22
-
-Polaris ⭢ uscita servizi igienici
-
-Sventata collisione:
-Polaris - soggetto sconosciuto
-
-Pericolosità soggetto:
-elevata
-
-Polaris:
-finge inoffensività
-
-Polaris ⭢ pista
-
-Contatto:
-Polaris - Kenji
-
-Contatto visivo:
-Polaris - Kintsugi
-
-Conversazione Kenji - Polaris:
-non udibile
-
-—
-
-02:30
-
-Kenji:
-cessazione comportamento impulsivo
-
-Bevanda:
-analcolica
-
-Socializzazione:
-in miglioramento
-
-—
-
-02:32
-
-Domanda Kintsugi - Polaris:
-motivazione del cambio comportamentale del soggetto Kenji
-
-Risposta Polaris:
-— gestione Kintsugi: errata, pressante
-— empatia Kintsugi: scarsa
-
-Suggerimento Polaris:
-mostrare Night City
-progressivamente
-
-Valutazione Kintusgi:
-compatibilità con TAICHI.MEM:
-accettabile
-
-—
-
-02:40
-
-Evento:
-comunicazione privata Freak Show - Polaris
-
-Contenuto:
-non udibile
-
-Polaris → retro locale
-
-—
-
-02:45
-
-> SENSORE TERMOGRAFICO:
-
-Kenji:
-allontanamento
-
-Compagnia:
-gruppo
-
-Evento:
-interazione consensuale con soggetto femminile
-
-Rischio:
-basso
-
-Evento simultaneo:
-
-Sasha: 
-abbandono compagnia precedente
-
-Sasha → retro locale
-
-Coincidenza:
-improbabile
-
-> BIOMONITOR: Cortisolo ↑
-
-Nota interna:
-
-sta succedendo qualcosa
 
 —
 
@@ -929,6 +469,38 @@ function typeFinal() {
             triggerGlitchEffect();
             return;
         }
+
+        if (finalText.startsWith(displayBlueTrigger, charIndex)) {
+
+    charIndex += displayBlueTrigger.length;
+
+    executeSystemCommand("DISPLAY:BLUE");
+
+    return;
+
+}
+
+
+if (finalText.startsWith(displayRedTrigger, charIndex)) {
+
+    charIndex += displayRedTrigger.length;
+
+    executeSystemCommand("DISPLAY:RED");
+
+    return;
+
+}
+
+
+if (finalText.startsWith(bgmStopTrigger, charIndex)) {
+
+    charIndex += bgmStopTrigger.length;
+
+    executeSystemCommand("BGM:STOP");
+
+    return;
+
+}
 
         typedText.textContent += finalText.charAt(charIndex);
         charIndex++;
