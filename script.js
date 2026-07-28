@@ -108,7 +108,7 @@ async function startAudio() {
 }
 
 
-// INCOLLA QUI
+// COMANDI SISTEMA
 
 function executeSystemCommand(command) {
 
@@ -142,21 +142,14 @@ function executeSystemCommand(command) {
 
             break;
 
+
+        default:
+
+            console.log("Comando non riconosciuto:", command);
+
+            break;
     }
 
-}
-
-    audioStarted = true;
-
-    openSound.currentTime = 0;
-    openSound.muted = false;
-    openSound.play().catch(() => {});
-
-    setTimeout(() => {
-        loopSound.currentTime = 0;
-        loopSound.muted = false;
-        loopSound.play().catch(() => {});
-    }, 300);
 }
 
 const corruptMap = {
