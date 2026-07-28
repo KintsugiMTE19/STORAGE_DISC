@@ -94,13 +94,27 @@ async function startAudio() {
         unlockSound(criticalGlitchSound)
     ]);
 
+    audioStarted = true;
 
-    function executeSystemCommand(command) {
+    openSound.currentTime = 0;
+    openSound.muted = false;
+    openSound.play().catch(() => {});
+
+    setTimeout(() => {
+        loopSound.currentTime = 0;
+        loopSound.muted = false;
+        loopSound.play().catch(() => {});
+    }, 300);
+}
+
+
+// INCOLLA QUI
+
+function executeSystemCommand(command) {
 
     const screen = document.querySelector(".crt-screen");
 
     switch (command) {
-
 
         case "DISPLAY:BLUE":
 
@@ -127,7 +141,6 @@ async function startAudio() {
             loopSound.pause();
 
             break;
-
 
     }
 
