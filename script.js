@@ -181,7 +181,8 @@ function screenFlicker(screen){
 
 function executeSystemCommand(command) {
 
-    const screen = document.querySelector(".crt-screen");
+    const screen =
+    document.querySelector(".crt-screen");
 
 
     switch (command) {
@@ -1506,7 +1507,7 @@ function triggerGlitchEffect() {
 
 
     const screen =
-        document.querySelector(".crt-screen");
+        document.querySelector(".screen-shake");
 
 
 
@@ -1659,7 +1660,7 @@ function triggerCriticalGlitch() {
 
 
     const screen =
-        document.querySelector(".crt-screen");
+        document.querySelector(".screen-shake");
 
 
 
@@ -1897,7 +1898,7 @@ function triggerDisplayGlitch() {
 
 
     const screen =
-        document.querySelector(".crt-screen");
+        document.querySelector(".screen-shake");
 
 
     const text = typedText;
@@ -1923,26 +1924,29 @@ function triggerDisplayGlitch() {
 
         if (text) {
 
+    text.style.textShadow = `
 
-            text.style.textShadow = `
+    -3px 0 rgba(255,0,0,0.8),
+     3px 0 rgba(0,255,255,0.8),
+     0 0 6px rgba(255,255,255,0.5)
 
-            -3px 0 rgba(255,0,0,0.8),
-             3px 0 rgba(0,255,255,0.8),
-             0 0 6px rgba(255,255,255,0.5)
+    `;
 
-            `;
-
-
-            text.style.transform =
-            `
-            translate(
-                4px,
-                -4px
-            )
-            `;
+}
 
 
-        }
+// MOVIMENTO SCHERMO GLITCH
+if (screen) {
+
+    screen.style.transform =
+    `
+    translate(
+        ${Math.random() * 8 - 4}px,
+        ${Math.random() * 8 - 4}px
+    )
+    `;
+
+}
 
 
 
