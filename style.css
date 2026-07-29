@@ -90,6 +90,14 @@ body {
     z-index: 1;
 }
 
+.screen-shake {
+
+    position: relative;
+    width:100%;
+    height:100%;
+
+}
+
 #terminal {
     position: relative;
     z-index: 5;
@@ -136,7 +144,7 @@ body {
 
 #typed-text {
     white-space: pre-wrap;
-    display: inline;
+    display: block;
 }
 
 .cursor {

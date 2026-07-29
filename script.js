@@ -181,8 +181,7 @@ function screenFlicker(screen){
 
 function executeSystemCommand(command) {
 
-    const screen =
-    document.querySelector(".crt-screen");
+    const screen = document.querySelector(".crt-screen");
 
 
     switch (command) {
@@ -1009,8 +1008,8 @@ function typeFinal() {
 
 
     const wasAtBottom =
-        terminal.scrollTop + terminal.clientHeight >=
-        terminal.scrollHeight - 5;
+    terminal.scrollTop + terminal.clientHeight >=
+    terminal.scrollHeight - 30;
 
 
 
@@ -1223,10 +1222,9 @@ if (finalText.startsWith(bgm3StopTrigger, charIndex)) {
 
     if (wasAtBottom) {
 
-        terminal.scrollTop =
-            terminal.scrollHeight;
+    terminal.scrollTop = terminal.scrollHeight;
 
-    }
+}
 
 
 
@@ -1507,7 +1505,7 @@ function triggerGlitchEffect() {
 
 
     const screen =
-        document.querySelector(".screen-shake");
+        document.querySelector(".crt-screen");
 
 
 
@@ -1660,7 +1658,7 @@ function triggerCriticalGlitch() {
 
 
     const screen =
-        document.querySelector(".screen-shake");
+        document.querySelector(".crt-screen");
 
 
 
@@ -1898,7 +1896,7 @@ function triggerDisplayGlitch() {
 
 
     const screen =
-        document.querySelector(".screen-shake");
+        document.querySelector(".crt-screen");
 
 
     const text = typedText;
@@ -1935,7 +1933,7 @@ function triggerDisplayGlitch() {
 }
 
 
-// MOVIMENTO SCHERMO GLITCH
+// MOVIMENTO SCHERMO GLIT
 if (screen) {
 
     screen.style.transform =
