@@ -261,6 +261,16 @@ body {
 
 }
 
+.crt-screen.display-blue .glow {
+
+    background: radial-gradient(
+        ellipse at center,
+        rgba(0,180,255,0.4) 0%,
+        rgba(0,120,255,0.15) 50%,
+        rgba(0,0,0,0) 70%
+    );
+
+}
 
 /* Cambia il velo del CRT */
 
@@ -286,5 +296,80 @@ body {
 
     text-shadow:
         0 0 5px rgba(0,180,255,0.9);
+
+}
+
+.display-flicker {
+    animation:
+        displayFlicker 0.25s linear,
+        crtGlitch 6.3s infinite;
+}
+
+.rgb-glitch {
+    animation: rgbShake 0.08s infinite;
+}
+
+
+@keyframes rgbShake {
+
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-3px,1px);
+    }
+
+    50% {
+        transform: translate(3px,-1px);
+    }
+
+    75% {
+        transform: translate(-2px,2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+
+}
+
+
+@keyframes displayFlicker {
+
+    0% {
+        filter: brightness(1);
+        transform: translateX(0);
+    }
+
+
+    20% {
+        filter: brightness(3) contrast(200%);
+        transform: translateX(3px);
+    }
+
+
+    35% {
+        filter: brightness(0.2) contrast(300%);
+        transform: translateX(-4px);
+    }
+
+
+    50% {
+        filter: brightness(2);
+        transform: translateX(2px);
+    }
+
+
+    70% {
+        filter: brightness(0.7);
+        transform: translateX(-1px);
+    }
+
+
+    100% {
+        filter: brightness(1);
+        transform: translateX(0);
+    }
 
 }
