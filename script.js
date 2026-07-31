@@ -1,7 +1,7 @@
 const bootMessages = [
     "KINTSUGI_BOOT.SYS INIZIALIZZATO",
     "TAICHI_CORE_0329.MEM CARICATO",
-    "SISTEMA AVVIATO - GIORNO 0339"
+    "SISTEMA AVVIATO - GIORNO 0345"
 ];
 
 const authLines = [
@@ -862,7 +862,7 @@ Cinque mozziconi a terra.
 
 Daisuke: "Guarda alla tua sinistra."
 
-Taichi: "Perchè cosa c'è a sinistra?"
+Taichi: "Perchè, cosa c'è lì?"
 
 Daisuke: "Guarda bene."
 
@@ -870,11 +870,13 @@ Taichi: "Sto guardando."
 
 [INSTANT][SMALL]/vis/0024894.bin[/SMALL][/INSTANT]
 
-Case del vicinato, uomo e donna parlano su muretto, cane fruga tra i rifiuti.
+Case del vicinato, uomo e donna parlano su muretto, scarafaggi tra i rifiuti.
 
 [INSTANT][SMALL]/aud/0023481.bin[/SMALL][/INSTANT]
 
-Daisuke: "No hai ragione non c'è un cazzo lì. Voltati."
+Taichi: "Cosa devo guardare?"
+
+Daisuke: "Niente, hai ragione non c'è un cazzo lì. Voltati."
 
 [INSTANT][SMALL]/vis/0024895.bin[/SMALL][/INSTANT]
 
