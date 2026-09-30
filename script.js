@@ -318,756 +318,392 @@ const corruptMap = {
 
 
 const finalText = `
+02:34
+Evie
+Polaris
+[CORRUPT_DELETE]Kintsu[/CORRUPT_DELETE]Taichi
+Freak Show
+‭→ Skate park
 
-[CORRUPT_DELETE]Daisuke:[/CORRUPT_DELETE]
-[DISPLAY:GLITCH]
-Daisuke:
-cannone portatile Nova
+Confronto:
+Polaris - skater
 
-Guardia Armata 01:
-fucile a pompa
-
-Guardia Armata 02:
-fucile a pompa
+Contenuto:
+invasione della rampa
 
 -
 
-01:50
+02:40
 
-Kintsugi:
-granata: lanciata
-interposizione tra Daisuke e Polaris
+Evie: individuata
 
-Esito:
-fallimento
+Decifrazione sguardo Evie: 87%
+Messaggio: Evie ha identificato Bag Lady
+
+Restituzione informazione a Polaris, Freak Show
+
+Taichi, Polaris, Freak Show ‭→ panchina
+
+Conformità aspetto Bag Lady ad aspettative: scarsa
+
+— cyberware offensivi: non identificati
+— armi: basilari
 
 Polaris:
-colpita
+Tentativo di corruzione per ottenere informazioni tramite sigaretta
 
-Evie - Guardia Armata 01: Scambio di colpi
-Esito: ferite reciproche
+Esito: Fallimento parziale
 
-Freak Show:
-compromissione ottiche Daisuke
+Sigaretta: sbriciolata
 
-Freak Show:
-usa sedia come copertura
+Bag Lady: Espulsione dei presenti nelle vicinanze
+Nota personale: notevole influenza sul territorio circostante
 
-> COMLINK:
-messaggio inviato → Kenji
-
-Contenuto:
-Verificare incolumità Daisuke
+Esito incontro:
+Scambio 100.000 eb con prestazioni edgerunners professionisti
+Provvigione fixer: 30% aggiuntivo
+Richiesta aggiuntiva: acquisto materiale necessario all'infiltrazione
+Accordo: stipulato
 
 -
 
-01:51
+03:57
 
-Daisuke:
-fuoco su Evie
+Taichi → Atlantis
+
+Vortex: individuato
+Giacca rinforzata: recuperata
+
+Tasso alcolemico ↑
+Dopamina ↑
+Energia processore neurale ↓
+
+Ares: informato su esito serata tramite microspia
+
+- 
+
+05:00
+
+Collasso KINTSUGI.SYS: imminente
+
+-ARRESTO DEL SISTEMA-
+
+[INSTANT]____________________[/INSTANT]
+[PAUSE:3000]
+-
+
+12:00
+
+-AVVIO DEL SISTEMA-
+
+Identificazione luogo: Totentantz
+
+-
+
+12:30
+
+Aspetto fisico: ripristinato
+
+-
+
+12:40
+
+Ricongiungimento con Evie, Polaris, Freak Show
+Ottenimento completo elegante
+Nota personale: restituire eddie
+
+Taichi:
+Assistenza acquisti gruppo
+
+-
+
+14:00
+
+-PERMANENZA-
+
+Luogo: Casa di Evie
+
+-
+
+18:00
+
+Taichi, Freak Show, Polaris, Evie → skate park
+
+-
+
+18:30
+
+Bag Lady: individuata
+
+Esposizione dei dettagli dell'accordo
+Obiettivo: incontro con la squadra Devil's Horde
+
+Evie, Freak Show:
+Conoscenza pregressa del gruppo
+Nota: gruppo un tempo numeroso, ridotto a pochi membri.
+
+Luogo incontro: Short Circuit
+Ubicazione: Palazzo Argus Inc.
+Proprietà: Devil's Horde
+
+Bag Lady:
+Consegna sacchetto contenente il materiale richiesto
+
+-
+
+19:00
+
+Evie, Taichi, Freak Show, Polaris → abitazione Polaris
+
+Atteggiamento Kimiko: irritante, intrattenente
+
+Evie:
+Proposta di utilizzo nome identificativo per il gruppo
+
+Ipotesi Evie: Bastards
+
+Valutazione Taichi:
+Nome poco rivelatore
+Informazioni fornite: minime
+
+Conclusione: conveniente
+
+-
+
+23:00
+
+Evie, Polaris, Freak Show, Taichi → Short Circuit
+
+Nota: l'edificio si trova accanto alla torre del Trauma Team
+
+Descrizione struttura:
+Edificio nero, superficie liscia
+Insegna identificativa: ARGUS INC.
+
+Superamento dei bodyguard
+Dichiarazione fornita: incontro con Bag Lady
+
+Accesso: autorizzato
+Trasferimento ai piani superiori
+
+-
+
+23:12
+
+Ambiente:
+Stanza in marmo nero
+Palchetti circolari
+Tavoli circolari
+Design prevalentemente nero e azzurro
+
+Nota: geometria circolare dominante
+
+Tavolo con Bag Lady: individuato
+
+[INSTANT]analisi dei soggetti presenti in corso[/INSTANT]
+[PAUSE:3000]
+
+- Soggetto 01:
+
+Età apparente: 20-25
+Abbigliamento: parka blu, toppe colorate, pantaloni da lavoro
+Accessorio: cordoncino di cuoio al collo
+Modifiche: piercing appuntiti su entrambe le narici superiori, gambe cromate innestate
+Aspetto: viso angelico
+Tatuaggio: «No Better Friend No Worse Enemy» sul collo
+
+Comportamento: arrogante
+Attività: millanta possesso XBD rare
+
+- Soggetto 02: 
+
+Età apparente: 30
+Corporatura: bassa, atletica
+Capelli: biondo sporco, rasati a pochi millimetri
+Volto: placca facciale grigio opaco, linea dell'innesto visibile lungo il perimetro
+Ottiche: bianche, prive di pupille, punto nero centrale
+Altri tratti: assenza di sopracciglia, naso sottile e adunco
+Abbigliamento: casual
+
+- Soggetto 03:
+
+Età apparente: 25–30
+Abbigliamento: tuta intera bordeaux con cappuccio abbassato, bomber nero rinforzato, scarpe da ginnastica bianche
+Volto: statuario
+Capelli: neri, caschetto corto
+Occhi: azzurri
+Modifiche: orecchio destro sostituito da impianto audio nero
+
+- Soggetto 04:
+
+Età apparente: 30
+Abbigliamento: maglietta verde militare, gilet di pelle con motivi verdi e rossi, jeans grigi rattoppati, stivali rinforzati
+Modifiche: braccia cibernetiche, vernice bianco opaco logorata
+Aspetto: pelle abbronzata, guancia sinistra bucherellata
+Capelli: castani, raccolti in treccia fino a spalle
+Accessorio: cappello da cowboy nero, occhi non visibili
+Attività: fuma sigaro
+
+-
+
+23:15
+
+Bag Lady:
+Presentazione dei membri del gruppo
+
+Devil's Horde:
+Livewire, Lucifer (capo), Sleeping Beauty, Coyote
+
+
+Definizione del piano
+
+Devil's Horde:
+Posizionamento di esplosivi nel parcheggio
+Utilizzo previsto: diversivo, esclusivamente se necessario
+
+Ulteriore accordo:
+Lasciare libero il passaggio a gruppo "Bastards"
+
+Parola d'ordine istituita:
+«Cocktail di gamberi»
+
+Coyote:
+Disponibilità utilizzo Mazda corazzata per attirare inseguitori
+
+-
+
+23:30
+
+Livewire:
+Domande relative a disastro dirigibile NN54
+
+Ulteriore richiesta:
+Informazioni su materiale sensibile nascosto da Sasha
+
+Risposta Polaris: 
+Rivendica la messa in sicurezza delle informazioni
+
+Livewire: 
+Vicinanza Polaris: eccessiva
+Comportamento: insistente, viscido
+Obiettivo: ottenere accesso alle informazioni
+
+Kintsugi:
+Allerta
+Preparazione intervento
+
+Polaris:
+Estrazione lame Wolver da nocche
+
+Livewire:
+Interruzione delle pressioni
+Esito: ritirata Livewire
+
+-
+
+23:35
+
+Polaris:
+Allontanamento da Livewire
+Trasferimento al tavolo di Bag Lady
+
+Attività:
+Domande rivolte a Bag Lady
+Contenuto: non rilevato da Taichi
+
+Polaris:
+Interrogazione estesa ai membri dei Devil's Horde
+Richieste di informazioni multiple e consecutive
+
+Taichi:
+Monitoraggio della situazione
+Nota personale: gamberi deliziosi
+
+-
+
+24:00
+
+Taichi, Evie, Freak Show, Polaris:
+rientro rispettive abitazioni
+
+-
+
+00:30 
+
+-ARRESTO DEL SISTEMA-
+
+[INSTANT]____________________[/INSTANT]
+
+-
+
+08:30
+
+-AVVIO DEL SISTEMA-
+
+Taichi → bagno Totentantz
+
+Assetto elegante: acquisito
+Credibilità: 40%
+Capelli: sistemati
+Aggiornamento credibilità: 55%
+
+Cortisolo ↑
+Kintsugi: sferra pugno contro porta
+
+-
+
+09:00
+
+Freak Show, Evie:
+Recupero Taichi
+
+-
+
+09:14
+Recupero Polaris
+
+-
+
+09:30
+
+Struttura: Torre di vetro nero
+Conteggio piani: 112
+Forma: prisma romboidale
+Insegna: neon giallo "EBM"
+
+Taichi:
+Rilevamento torrette automatiche
 
 Freak Show:
-compromissione impianto audio Daisuke
-
-Guardia Armata 02:
-colpisce Freak Show
-
-Kintsugi:
-tre proiettili termici su Guardia Armata 02
-
-Daisuke:
-colpisce Evie
-
-Evie:
-Danneggia Guardia Armata 01
-
-Guardia Armata 02:
-pugnala Freak Show
+Verifica del collegamento con Lucifer tramite Headcom
 
 Esito:
-Freak Show a terra
+Comunicazione funzionante
 
-Evie:
-fratture costali inflitte a Guardia Armata 01
+-
 
-Guardia Armata 03:
-fuoco su Evie
+09:35
 
-Kinstugi:
-Termina Guardia Armata 02 con munizioni incendiarie.
+Bastards → reception
 
-Daisuke:
-spara a Evie
+Richiesta:
+Colloquio con Donald
 
-Evie:
-Tentativo di persuasione verbale su Daisuke
+Identificazione necessaria
 
-Supporto Polaris:
-riproduzione ninna nanna
+- Taichi: Satou Takahashi
+- Evie: Miriam Del Fiore
+- Freak Show: Carlos Delgado
+- Polaris: Tomiku Ueda
 
-Esito:
-Fallimento parziale
+Accesso: autorizzato
 
-Evie:
-termina Guardia Armata 01
+[FINE REGISTRAZIONE PARZIALE]
 
-01:52
 
-Daisuke:
-fuoco casuale
 
-Daisuke:
-utilizza lame a mantide
 
-Nota:
-Lacrime
 
-Impatto imminente:
-gola Kintsugi
-
-Arresto movimento
-
-Rilevamento:
-suoni metallici dal corridoio
-
-Probabilità:
-Kitsu - 79%
-
-Probabilità cyberpsicosi Kitsu:
-99%
-
-Polaris:
-stabilizza Freak Show
-
-Guardia Armata 03:
-colpisce Evie
-
-Evie:
-a terra
-
-Polaris:
-stabilizza Evie
-
-Kintsugi:
-termina Guardia Armata 03
-
-Daisuke:
-colpisce Kintsugi
-
-Armatura Kintsugi:
-compromessa
-
-Kitsu:
-ingresso
-
-Kitsu → vetro di contenimento Vance
-
-Tentativo:
-rottura barriera
-
-Illuminazione:
-off
-
-Sistema:
-allarme
-
-> COMLINK:
-
-Kenji:
-"Dove cazzo è mio padre?"
-
-Daisuke:
-"Uccidimi."
-
-Kitsu:
-bloccata da Daisuke
-
-Esito:
-liberazione immediata
-
-Kitsu:
-Compromissione barriera di contenimento Vance
-
-Vance:
-tentata fuga
-
-Esito:
-Fallimento per blocco impianti
-
-01:53
-
-Vance:
-preme pulsante
-
-[CORRUPT_DELETE]Daisuke[/CORRUPT_DELETE]
-[CORRUPT_DELETE]Soldato: 
-trauma esplosivo
-
-Emergenza:
-Necessaria manovra di primo socc[/CORRUPT_DELETE]
-[DISPLAY:GLITCH]
-[DISPLAY:BLUE]
-[BGM:STOP]
-[BGM 3]
-[DISPLAY:GLITCH]
-
-[CORRUPT_DELETE]健司、会いたかった[/CORRUPT_DELETE]
-
-TRADUZIONE ATTIVA
-
-TAICHI.MEM/99900
-
-[INSTANT][SMALL]/aud/00622.bin[/SMALL][/INSTANT]
-
-Taichi: "Mi hanno detto che hai un figlio."
-
-[INSTANT][SMALL]/vis/00623.bin[/SMALL][/INSTANT]
-
-Film "Neon Velocity", attualmente bloccato sull'auto a mezz'aria, intervallato da statico.
-Daisuke in piedi dietro al televisore, maneggia dei cavi.
-
-[INSTANT][SMALL]hap/00623.bin[/SMALL][/INSTANT]
-
-Divano ruvido.
-
-[INSTANT][SMALL]gus/00623.bin[/SMALL][/INSTANT]
-
-Birra assunta da lattina.
-
-[INSTANT][SMALL]/aud/00623.bin[/SMALL][/INSTANT]
-
-Daisuke: "Sí beh, questa mattina é venuta qui Vanta, non volevo si incontrassero. L’ho portato da un suo amico."
-
-- Ronzio televisore, schiocco elettrico-
-
-[INSTANT][SMALL]/cog/00623.bin[/SMALL][/INSTANT]
-
-Intende Vanta-9? È uno dei nomi noti tra i Cani di Cromo. Perché Daisuke lo sta dicendo con leggerezza? É stupido? Meglio non chiedere.
-
-[INSTANT][SMALL]/vis/00624.bin[/SMALL][/INSTANT]
-
-Daisuke nota lattina di birra vuota sul pavimento.
-Daisuke calcia lattina dietro alla poltrona.
-Daisuke prende la scossa.
-Daisuke scuote la mano.
-Film riprende.
-
-[INSTANT][SMALL]/aud/00624.bin[/SMALL][/INSTANT]
-
-Daisuke: "Almeno è ripartito. Scusa il disordine, non aspettavo ospiti."
-
-Taichi: "Posso andare, se…"
-
-Daisuke: "No, no, resta. Tu mi hai pagato la cena, io la preparo. É che pensavo mi avresti dato buca."
-
-Taichi: "Mi hai invitato tu."
-
-[INSTANT][SMALL]/vis/00624.bin[/SMALL][/INSTANT]
-
-Auto sportiva atterra su strada.
-Auto che insegue esplode.
-Ragazza in testa si sporge dal finestrino e mostra il medio.
-
-[INSTANT][SMALL]/aud/00625.bin[/SMALL][/INSTANT]
-
-Daisuke: "Sí, beh, stavo scherzando, pensavo fosse scontato che mi avresti detto di no."
-
-Taichi: "Non capisco se mi vuoi in casa tua."
-
-Daisuke: "No, cioé sí, intendevo solo che si dicono tante cose di me giù al No Signal, quindi credevo mi avresti detto di no. Non sono abituato ad avere degli amici a casa."
-
-[PAUSE:1000]
-
-Daisuke: "Scusami."
-
--Risata fragorosa di Taichi-
-
-[INSTANT][SMALL]/vis/00625.bin[/SMALL][/INSTANT]
-
-Film si blocca su inquadratura del cofano dell'auto.
-
-[INSTANT][SMALL]/aud/00626.bin[/SMALL][/INSTANT]
-
-Daisuke: "Scusami, cazzo, non mi so esprimere."
-
-Taichi: "Nah, sei divertente. Nemmeno io ho amici, comunque."
-
-Daisuke: "Divertente?"
-
-Taichi: "É un complimento." 
-
-Daisuke: "Sí, lo so che é un…"
-
-Taichi: "Oh cristo accetta che non fai schifo e basta!"
-
-Daisuke: "Ok."
-
-[PAUSE:2000]
-
-Daisuke: "Non so cucinare."
-
-Taichi: "Avevo intuito, cucino io. Adesso falla finita, voglio guardare il film."
-
-Daisuke: "Se intendi i fanali dell’auto che tremano per un’altra mezz’ora..."
-
-[PAUSE:1000]
-
-Daisuke: "Si, tranquillo Daisuke, é un Hikari System CRT, il migliore sul mercato, certo Daisuke, é come nuovo, ma vaffanculo.
-
-[INSTANT][SMALL]/vis/00626.bin[/SMALL][/INSTANT]
-
-Daisuke lancia lattina piena su angolo televisore.
-Film riparte.
-
-[CRITICALGLITCH]
-
-TAICHI.MEM/378900
-
-[INSTANT][SMALL]/aud/00951.bin[/SMALL][/INSTANT]
-
-Daisuke: "potresti trasferirti qui sai?"
-
-[INSTANT][SMALL]/olf/0000962.bin[/SMALL][/INSTANT]
-
-Salsa di soia
-Manzo sintetico
-
-[INSTANT][SMALL]/hap/0000959.bin[/SMALL][/INSTANT]
-
-Bollente
-
-[INSTANT][SMALL]/gus/0000782.bin[/SMALL][/INSTANT]
-
-Salato
-Verdure e carne liofilizzate
-
-[INSTANT][SMALL]/aud/00952.bin[/SMALL][/INSTANT]
-
-Daisuke: "Questa roba é spettacolare."
-
-Taichi: "Quindi dovrei passare i sei mesi prima di partire a fare il cuoco per voi?"
-
-Kenji: "Sí!"
-
-Taichi: "Ok."
-
-Daisuke: "Ti dispiace?"
-
-Taichi: "Venire qui? No."
-
-[INSTANT][SMALL]/cog/001123.bin[/SMALL][/INSTANT]
-
--Rilevato imbarazzo in Daisuke-
-
-[PAUSE:2000]
-
-Daisuke: "Chi ti ha insegnato a farlo?"
-
-Taichi: "A fare cosa?"
-
-Daisuke: "L’Hiyashi Chuka, deficente."
-
-Taichi: "La cuoca dell’esercito, si chiama Kaori."
-
-Daisuke: "Beh, ringraziamo Kaori."
-
-Kenji: "Grazie Kaori."
-
-Daisuke: "…e Taichi kun." 
-
-Kenji: "Finito!"
-
-[INSTANT][SMALL]/vis/00996.bin[/SMALL][/INSTANT]
-
-Kenji si alza da tavola corre in direzione porta.
-
-[INSTANT][SMALL]/aud/00953.bin[/SMALL][/INSTANT]
-
-Daisuke: "E Taichi kun, Kenji!"
-
-[INSTANT][SMALL]/vis/00997.bin[/SMALL][/INSTANT]
-
-Kenji si ferma davanti alla porta, sbatte un piede a terra, abbassa la testa.
-
-[INSTANT][SMALL]/aud/00954.bin[/SMALL][/INSTANT]
-
-Kenji: "Grazie Taichi kun!!!"
-
-[INSTANT][SMALL]/vis/00998.bin[/SMALL][/INSTANT]
-
-Kenji si appende alla maniglia della porta e tira.
-
-[INSTANT][SMALL]/aud/00955.bin[/SMALL][/INSTANT]
-
-Daisuke: Oi! Dove credi di andare piccola scimmia? Cos’hai lì arrotolato sul braccio?
-
-[INSTANT][SMALL]/vis/00998.bin[/SMALL][/INSTANT]
-
-Kenji guarda la manica destra arrotolata, fa una linguaccia a Daisuke, corre a prendere il proprio piatto di plastica vuoto.
-Kenji corre fuori dalla porta.
-
-[INSTANT][SMALL]/aud/00956.bin[/SMALL][/INSTANT]
-
--Rumore di coperchio di bidone dei rifuti all'esterno.-
-
-Daisuke: "Questa cosa funziona davvero."
-
-Taichi: "Lo so. Rivolgetevi a mamma Taichi per altri consigli."
-
-[INSTANT][SMALL]/vis/00998.bin[/SMALL][/INSTANT]
-
-Daisuke sorride, si alza dalla sedia e riordina la tavola. Rilevata tristezza.
-
-[INSTANT][SMALL]/aud/00957.bin[/SMALL][/INSTANT]
-
-Taichi: "Scusami, non ci ho pensato."
-
-Daisuke: "Non fa niente."
-
-[CRITICALGLITCH]
-
-TAICHI.MEM/941200
-
-[INSTANT][SMALL]/aud/001234.bin[/SMALL][/INSTANT]
-
-Taichi: "Non ci credo cazzo, non ci credo."
-
--Pianto di Kenji-
-
-[INSTANT][SMALL]/olf/001221.bin[/SMALL][/INSTANT]
-
-Disinfettante
-
-[INSTANT][SMALL]/vis/001987.bin[/SMALL][/INSTANT]
-
-Vetri rotti, sangue sul pavimento. 
-Kenji preme garza imbevuta sulla mano. 
-Taichi allontana Kenji, raccoglie schegge di vetro dal pavimento.
-
-[INSTANT][SMALL]/aud/001234.bin[/SMALL][/INSTANT]
-
-Daisuke: -trascinando le parole- "Te lo ripeto, non ha fatto nessun dannato rumore, sono arrivato e lui era a mani in giù sui vetri che piangeva.
-
-[INSTANT][SMALL]/olf/001222.bin[/SMALL][/INSTANT]
-
-Tequila economica
-
-[INSTANT][SMALL]/vis/001987.bin[/SMALL][/INSTANT]
-
-Taichi sposta coltello da tavolo a cassetto.
-Taichi fa sedere Kenji sul tavolo.
-Taichi arrotola bende attorno alle dita di Kenji
-
-[INSTANT][SMALL]/aud/001235.bin[/SMALL][/INSTANT]
-
-Taichi: "Cosa stavi facendo, Kenji?"
-
-Kenji: -tirando su col naso- "Volevo fare lo Hiyashi-Chuka."
-
-Taichi: "Certo, lo stracazzo di Hiyashi-Chuka."
-
-Kenji: "Lo stracazzo di Hiyashi-Chuka…"
-
-Daisuke: "Perfetto, grazie Taichi."
-
-Taichi: "Tu non devi parlarmi, hai capito?"
-
-Daisuke: "No, tu non mi devi parlare in questo modo. Io ho un problema ed é difficile."
-
-Taichi: "Ah, hai un problema! E ce la stai proprio mettendo tutta, eh?" 
-
-[INSTANT][SMALL]/vis/001987.bin[/SMALL][/INSTANT]
-
-Taichi lancia strofinaccio insanguinato nel lavandino. 
-
-[INSTANT][SMALL]/aud/001236.bin[/SMALL][/INSTANT]
-
-Daisuke: "Io ci sto provando."
-
-Taichi: "No, Daisuke, tu non ci devi provare, devi buttare via quella roba, andare nel primo minimarket che trovi e spendere tutti i tuoi soldi in cibo e vestiti nuovi. Con cosa pagherai tra quattro mesi quando io starò morendo a sud? Con i cinque eddie che guadagni per ogni merdoso display che aggiusti?"
-
-Daisuke: "Come farò senza di te? Come prima che tu arrivassi, stronzo. Pensi che io non sia in grado? Vuoi aiutarmi? Chi cazzo te lo ha chiesto?"
-
-[INSTANT][SMALL]/vis/001988.bin[/SMALL][/INSTANT]
-
-Taichi fa tre passi verso Daisuke
-Kenji corre davanti a Taichi per difendere Daisuke
-Kenji si mette in guardia come un pugile
-
-
-Taichi: "Preferisci siano gli scav che ti fanno riparare la loro merce a darti da mangiare? Pensi che non sappia chi fai entrare qui dentro?"
-
-Daisuke: "Ma vaffanculo, Taichi. Fai finta di passartela tanto meglio di me. Vuoi sentirti un figo? Vuoi fare l’eroe in casa mia?"
-
-[INSTANT][SMALL]/vis/001989.bin[/SMALL][/INSTANT]
-
-Daisuke raccoglie bottiglia dal tavolino.
-Daisuke sventola bottiglia verso Taichi sfiorando Kenji.
-Kenji si sposta.
-
-Daisuke: "I tuoi soldi sono più sporchi dei miei."
-
-Kenji: "Vaffanculo, Taichi-kun!"
-
-Daisuke: "Vuoi andare avanti ad ammazzare i poveracci come me, con la tua toppa rossa e nera sul braccio? Vuoi fare la bella vita? Prova a leccare il culo di Saburo più forte, vediamo se..."
-
-[INSTANT][SMALL]/vis/001990.bin[/SMALL][/INSTANT]
-
-Taichi raccoglie bicchiere di vetro da bancone.
-Taichi lancia bicchiere in direzione di Daisuke.
-Daisuke si sposta.
-Bicchiere si frantuma contro il muro.
-
-[INSTANT][SMALL]/aud/001238.bin[/SMALL][/INSTANT]
-
--Singhiozzi di Kenji-
-
-[CORRUPT_DELETE]Daisuke: "Vatten[/CORRUPT_DELETE]
-[DISPLAY:GLITCH]
-ERRORE: L'accesso a TAICHI.MEM/941200 può compromettere le funzioni di KINTSUGI.SYS
-ACCESSO NEGATO
-
-[CRITICALGLITCH]
-
-TAICHI.MEM/9631700
-
-[INSTANT][SMALL]/aud/0023478.bin[/SMALL][/INSTANT]
-
-Daisuke: "Pensaci domani Taichi, oggi non è ancora finita."
-
-[INSTANT][SMALL]/olf/0021456.bin[/SMALL][/INSTANT]
-
-Fumo di sigaretta
-
-[INSTANT][SMALL]/gus/0011456.bin[/SMALL][/INSTANT]
-
-Tabacco
-
-[INSTANT][SMALL]/aud/0023479.bin[/SMALL][/INSTANT]
-
-Taichi: "Facile per te. Non vai al macello tra dieci ore."
-
-Daisuke: "Facile per me dici? Egocentrico."
-
--Risata di Taichi-
-
-Daisuke: "Fai piano, Kenji dorme."
-
-[INSTANT][SMALL]/vis/0024894.bin[/SMALL][/INSTANT]
-
-Mano di Taichi lancia mozzicone su veranda.
-Cinque mozziconi a terra.
-
-[INSTANT][SMALL]/aud/0023480.bin[/SMALL][/INSTANT]
-
-Daisuke: "Guarda alla tua sinistra."
-
-Taichi: "Perchè, cosa c'è lì?"
-
-Daisuke: "Guarda bene."
-
-Taichi: "Sto guardando."
-
-[INSTANT][SMALL]/vis/0024894.bin[/SMALL][/INSTANT]
-
-Case del vicinato, uomo e donna parlano su muretto, scarafaggi tra i rifiuti.
-
-[INSTANT][SMALL]/aud/0023481.bin[/SMALL][/INSTANT]
-
-Taichi: "Cosa devo guardare?"
-
-Daisuke: "Niente, hai ragione non c'è un cazzo lì. Voltati."
-
-[INSTANT][SMALL]/vis/0024895.bin[/SMALL][/INSTANT]
-
-Mano aperta di Daisuke.
-Sul palmo cavi di rame e argento formano anello.
-
-[INSTANT][SMALL]/aud/0023482.bin[/SMALL][/INSTANT]
-
-Taichi: "Cos'è?"
-
-Daisuke: "Dai, non si vede? Non è venuto così male."
-
-Taichi: "No, è molto bello, devi averci messo un sacco. Lo appendo al collo insieme alla targhetta. Grazie, Daisuke." 
-
-Daisuke: "Non sono sicuro tu abbia capito."
-
-Taichi: "Cosa devo capire? E' un bel regalo."
-
-Daisuke: "Non vuoi sposarmi?"
-
-Taichi: "Cosa?"
-
-[PAUSE:2000]
-
-Daisuke: "Non vuoi?"
-
-Taichi: "Daisuke sto per andare al fronte, non tornerò più probabilmente. E poi chi cazzo ci sposa? Dove? Qui?"
-
-Daisuke: "E come pensi abbia fatto l'ultima volta? Vado ai registri locali, mi basta una dichiarazione firmata da te."
-
-[INSTANT][SMALL]/vis/0024895.bin[/SMALL][/INSTANT]
-
-Mano di Taichi raccoglie anello da palmo Daisuke.
-
-[INSTANT][SMALL]/aud/0023483.bin[/SMALL][/INSTANT]
-
-[PAUSE:2000]
-
-Taichi: "Perchè?"
-
-Daisuke: "Perchè no?"
-
-Taichi: "Morirò."
-
-Daisuke: "Non morirai. "
-
-Taichi: "Daisuke."
-
-Daisuke: "Non morirai, tornerai qui. Anche se ti manca una gamba o un occhio o se ti restano sei dita."
-
-[INSTANT][SMALL]/vis/0024896.bin[/SMALL][/INSTANT]
-
-Mani giunte di Taichi stringono anello.
-Busto Taichi si piega in avanti.
-
-[INSTANT][SMALL]/hap/0010567.bin[/SMALL][/INSTANT]
-
-Nodo alla gola
-
-[INSTANT][SMALL]/aud/0023484.bin[/SMALL][/INSTANT]
-
-Daisuke: "Ehi, guardami."
-
-[INSTANT][SMALL]/vis/0024896.bin[/SMALL][/INSTANT]
-
-Daisuke si alza da sedia di plastica.
-Daisuke si china davanti a Taichi.
-Vista Taichi annebbiata: lacrime.
-
-[INSTANT][SMALL]/aud/0023485.bin[/SMALL][/INSTANT]
-
-Daisuke: "Tu sopravvivi e io nel frattempo faccio lo stesso. Non raccontiamoci balle, è merito tuo se adesso bevo forse un bicchiere al giorno. Però ho bisogno che torni per smettere, perchè sono un debole del cazzo. Tu sei un vero soldato quando ti arrabbi, a volte mi spaventi, quindi tornerai, me lo sento.
-
-[PAUSE:1000]
-
-Taichi: "Ho paura."
-
-[INSTANT][SMALL]/hap/0010568.bin[/SMALL][/INSTANT]
-
-Abbraccio
-
-[INSTANT][SMALL]/aud/0023486.bin[/SMALL][/INSTANT]
-
-Daisuke: "Nel peggiore dei casi ti vengo a cercare e rimetto insieme i pezzi, imparerò a farlo. 
-
-Taichi: "Fai il serio."
-
-Daisuke: "Sono serio. Ma non succederà, tu tornerai e dopo penseremo a mettere a posto queste nostre teste bacate. Tu la mia e io la tua. Ci stai?"
-
-Taichi: "Ok." 
-
-Daisuke: "Quindi è un sì?"
-
-Taichi: "Sì."
-
-Daisuke: "Sicuro sicuro?"
-
-Taichi: "Piantala."
-
--Singhiozzo Taichi-
-
-Daisuke: "Ti amo."
-
-[INSTANT][SMALL]/hap/0010568.bin[/SMALL][/INSTANT]
-
-[CORRUPT_DELETE]Bacio Daisu[/CORRUPT_DELETE]
-
-[DISPLAY:RED]
-[BGM3:STOP]
-[BGM 2]
-
-Tatto Kintsugi:
-Poltiglia sul viso
-[DISPLAY:GLITCH]
-Volto Daisuke:
-Poltiglia a terra
-[DISPLAY:GLITCH]
-[CORRUPT_DELETE]Daisuke: 
-"Per chi lo hai fatto?"[/CORRUPT_DELETE]
-
-[CORRUPT_DELETE]Kenji:[/CORRUPT_DELETE]
-Polaris:
-Utilizza voce Kenji
-
-Polaris:
-"Dobbiamo andare"
-
-Kintsugi:
-interruzione contatto
-
-Kintsugi:
-Recupero Evie
-
-Polaris:
-Assistenza Freak Show
-
-Kintsugi, Polaris, Freak Show, Evie → corridoio
-
-Sasha:
-identificato
-
-Cinghie paracadute:
-Stabili
-
-Evie:
-Assicurata a Kintsugi tramite cinghie
-
-Lancio:
-Eseguito
-[DISPLAY:GLITCH]
-Feedback uditivo:
-Voce ovattata
-
-Provenienza:
-Night City, dirigibile
-
-Feedback ottiche:
-Volto Sasha
-
-Trasmissione:
-Schermi Night City
-
-Nota:
-Troppo lontano per vedere bene
-
-Contenuto:
-...Vance ha preso mia madre...
-...venduta... 
-...uccisa...
-...trovato il suo nascondiglio...
-...la polizia non farà mai niente...
-...prove seppellite a coordinate...
-...addio màlen'kaya ptìtsa...
-
-[DISPLAY:GLITCH]
-
-Evento critico:
-esplosione
-
-Allerta critica:
-caduta detriti
-
-[DISPLAY:GLITCH]
-[CORRUPT_DELETE]Voce Sasha: 
-"Visto? Io avevo una buona ragione."[/CORRUPT_DELETE]
-[DISPLAY:GLITCH]
-
-—
-
-FINE REGISTRAZIONE PARZIALE
-[DISPLAY:GLITCH]
 `;
 
 
