@@ -1,7 +1,7 @@
 const bootMessages = [
     "KINTSUGI_BOOT.SYS INIZIALIZZATO",
     "TAICHI_CORE_0329.MEM CARICATO",
-    "SISTEMA AVVIATO - GIORNO 0345"
+    "SISTEMA AVVIATO - GIORNO 0350"
 ];
 
 const authLines = [
@@ -350,19 +350,19 @@ Conformità aspetto Bag Lady ad aspettative: scarsa
 — armi: basilari
 
 Polaris:
-Tentativo di corruzione per ottenere informazioni tramite sigaretta
+Tentativo di corruzione per informazioni tramite sigaretta
 
 Esito: Fallimento parziale
 
 Sigaretta: sbriciolata
 
 Bag Lady: Espulsione dei presenti nelle vicinanze
-Nota personale: notevole influenza sul territorio circostante
+Nota personale: notevole influenza su territorio
 
 Esito incontro:
 Scambio 100.000 eb con prestazioni edgerunners professionisti
 Provvigione fixer: 30% aggiuntivo
-Richiesta aggiuntiva: acquisto materiale necessario all'infiltrazione
+Richiesta aggiuntiva a Bag Lady: acquisto materiale
 Accordo: stipulato
 
 -
@@ -434,18 +434,18 @@ Taichi, Freak Show, Polaris, Evie → skate park
 Bag Lady: individuata
 
 Esposizione dei dettagli dell'accordo
-Obiettivo: incontro con la squadra Devil's Horde
+Obiettivo: incontro con squadra Devil's Horde
 
 Evie, Freak Show:
-Conoscenza pregressa del gruppo
-Nota: gruppo un tempo numeroso, ridotto a pochi membri.
+Conoscenza pregressa gruppo
+Nota: un tempo numeroso, ridotto a pochi membri.
 
 Luogo incontro: Short Circuit
 Ubicazione: Palazzo Argus Inc.
 Proprietà: Devil's Horde
 
 Bag Lady:
-Consegna sacchetto contenente il materiale richiesto
+Consegna sacchetto contenente materiale richiesto
 
 -
 
@@ -455,9 +455,7 @@ Evie, Taichi, Freak Show, Polaris → abitazione Polaris
 
 Atteggiamento Kimiko: irritante, intrattenente
 
-Evie:
-Proposta di utilizzo nome identificativo per il gruppo
-
+Proposta Evie: utilizzo nome identificativo per gruppo
 Ipotesi Evie: Bastards
 
 Valutazione Taichi:
@@ -478,37 +476,36 @@ Descrizione struttura:
 Edificio nero, superficie liscia
 Insegna identificativa: ARGUS INC.
 
-Superamento dei bodyguard
+Superamento bodyguard
 Dichiarazione fornita: incontro con Bag Lady
 
 Accesso: autorizzato
-Trasferimento ai piani superiori
+Trasferimento a piani superiori
 
 -
 
 23:12
 
 Ambiente:
-Stanza in marmo nero
+Marmo nero
 Palchetti circolari
 Tavoli circolari
-Design prevalentemente nero e azzurro
-
-Nota: geometria circolare dominante
+Design nero e azzurro
+Geometria circolare dominante
 
 Tavolo con Bag Lady: individuato
 
-[INSTANT]analisi dei soggetti presenti in corso[/INSTANT]
+[INSTANT]analisi soggetti seduti al tavolo[/INSTANT]
 [PAUSE:3000]
 
 - Soggetto 01:
 
-Età apparente: 20-25
+Età: 20-25
 Abbigliamento: parka blu, toppe colorate, pantaloni da lavoro
 Accessorio: cordoncino di cuoio al collo
-Modifiche: piercing appuntiti su entrambe le narici superiori, gambe cromate innestate
+Modifiche: piercing appuntiti su narici superiori, gambe cromate
 Aspetto: viso angelico
-Tatuaggio: «No Better Friend No Worse Enemy» sul collo
+Tatuaggio: «No Better Friend No Worse Enemy» su collo
 
 Comportamento: arrogante
 Attività: millanta possesso XBD rare
@@ -517,11 +514,11 @@ Attività: millanta possesso XBD rare
 
 Età apparente: 30
 Corporatura: bassa, atletica
-Capelli: biondo sporco, rasati a pochi millimetri
-Volto: placca facciale grigio opaco, linea dell'innesto visibile lungo il perimetro
-Ottiche: bianche, prive di pupille, punto nero centrale
-Altri tratti: assenza di sopracciglia, naso sottile e adunco
-Abbigliamento: casual
+Capelli: biondo sporco, rasati
+Volto: placca facciale grigio opaco
+Ottiche: bianche, punto nero centrale
+Altri tratti: assenza sopracciglia, naso adunco
+Abbigliamento: anonimo
 
 - Soggetto 03:
 
@@ -547,13 +544,12 @@ Attività: fuma sigaro
 23:15
 
 Bag Lady:
-Presentazione dei membri del gruppo
+Presentazione membri gruppo
 
 Devil's Horde:
 Livewire, Lucifer (capo), Sleeping Beauty, Coyote
 
-
-Definizione del piano
+-Definizione del piano-
 
 Devil's Horde:
 Posizionamento di esplosivi nel parcheggio
@@ -601,17 +597,11 @@ Esito: ritirata Livewire
 
 23:35
 
-Polaris:
-Allontanamento da Livewire
-Trasferimento al tavolo di Bag Lady
-
-Attività:
-Domande rivolte a Bag Lady
-Contenuto: non rilevato da Taichi
+Polaris → tavolo di Bag Lady
 
 Polaris:
-Interrogazione estesa ai membri dei Devil's Horde
-Richieste di informazioni multiple e consecutive
+Interrogazione estesa a Bag Lady e membri Devil's Horde
+Richiesta di informazioni multiple e consecutive
 
 Taichi:
 Monitoraggio della situazione
@@ -662,7 +652,7 @@ Recupero Polaris
 
 09:30
 
-Struttura: Torre di vetro nero
+Struttura: Pareti in vetro nero
 Conteggio piani: 112
 Forma: prisma romboidale
 Insegna: neon giallo "EBM"
