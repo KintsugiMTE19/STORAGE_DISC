@@ -387,10 +387,8 @@ Ares: informato su esito serata tramite microspia
 Collasso KINTSUGI.SYS: imminente
 
 -ARRESTO DEL SISTEMA-
-
-[INSTANT]____________________[/INSTANT]
 [PAUSE:3000]
--
+[INSTANT]____________________[/INSTANT]
 
 12:00
 
@@ -633,8 +631,6 @@ rientro rispettive abitazioni
 -ARRESTO DEL SISTEMA-
 
 [INSTANT]____________________[/INSTANT]
-
--
 
 08:30
 
